@@ -1,9 +1,10 @@
 # Design Patterns (Java)
-Real-life examples working with the [Interactive Brokers TWS API](https://interactivebrokers.github.io/tws-api/index.html)
+Real-life examples of working with the [Interactive Brokers TWS API](https://interactivebrokers.github.io/tws-api/index.html)
 
-Pattern | Class | Idea
+Pattern | Demo | Idea
 --- | --- | ---
-Singleton | [IbManager](https://github.com/algonell/TradersTools/blob/main/Design%20Patterns/org/algonell/trading/dp/singleton/IbManager.java) | Manage multiple accounts (connections, disconnections, execution requests, orders requests and etc.) via single object and once.
+Singleton | [SingletonDemo](https://github.com/algonell/TradersTools/blob/main/Design%20Patterns/org/algonell/trading/dp/singleton/SingletonDemo.java) | Manage multiple accounts (connections, disconnections, execution requests, orders requests and etc.) via single object and once.
+Factory Method | [FactoryMethodDemo](https://github.com/algonell/TradersTools/blob/main/Design%20Patterns/org/algonell/trading/dp/factorymethod/FactoryMethodDemo.java) | Change historical data provider across all code base with a single modification.
 
 # TODO
 - [x] Singleton
