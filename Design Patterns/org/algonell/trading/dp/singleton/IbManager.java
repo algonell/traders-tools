@@ -17,6 +17,8 @@ import java.util.List;
 public enum IbManager {
 	INSTANCE; //single entry -> true singleton
 	
+	private final org.apache.logging.log4j.Logger logger = org.apache.logging.log4j.LogManager.getLogger(IbManager.class);
+	
 	private String metadata;
 	private List<Object> ibConnectors;
 	
@@ -34,12 +36,24 @@ public enum IbManager {
 
 	public void init() {
 		//connect accounts
+
+		//await historical market data farm
 		
-		//request positions
+		//etc.
 		
-		//request orders
+		logger.info("init done");
+	}
+
+	void requestOpenOrders() {
+		//must be done for each account
 		
-		//etc.		
+		logger.info("got open orders");
+	}
+
+	void requestExecutions() {
+		//must be done for each account
+		
+		logger.info("got executions");
 	}
 	
 	public void disconnect() {
@@ -48,6 +62,8 @@ public enum IbManager {
 		//store 
 		
 		//etc.
+		
+		logger.info("disconnected");
 	}
 	
 }
