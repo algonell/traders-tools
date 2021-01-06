@@ -3,7 +3,7 @@ Real-life examples working with the [Interactive Brokers TWS API](https://intera
 
 Pattern | Class | Idea
 --- | --- | ---
-Singleton | [IbManager](https://github.com/algonell/TradersTools/blob/main/Design%20Patterns/org/algonell/trading/dp/singleton/IbManager.java) | Manage multiple accounts (connection, disconnection and requests) via single object.
+Singleton | [IbManager](https://github.com/algonell/TradersTools/blob/main/Design%20Patterns/org/algonell/trading/dp/singleton/IbManager.java) | Manage multiple accounts (connections, disconnections, execution requests, orders requests and etc.) via single object and once.
 
 # TODO
 - [x] Singleton
