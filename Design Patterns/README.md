@@ -7,7 +7,7 @@ Singleton | [IbManager](https://github.com/algonell/TradersTools/blob/main/Desig
 
 # TODO
 - [x] Singleton
-- [ ] Factory Method
+- [x] Factory Method
 - [ ] Facade
 - [ ] Adapter
 - [ ] Composite
