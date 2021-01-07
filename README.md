@@ -1,5 +1,5 @@
 # Trader's Tools
-Insights, tools and tips due to losing too much money :crocodile:.
+Insights, tools and tips as a result of losing too much money :crocodile:.
 
 * Things You Learn After 1 Year of Day Trading for a Living [[Medium]](https://algonell.medium.com/things-you-learn-after-1-year-of-day-trading-for-a-living-a97bbc8d19fa) - or what **not** to do in the markets.
 * Numer.ai - tools for creating symbol lists (attic).
