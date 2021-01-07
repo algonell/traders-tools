@@ -1,10 +1,29 @@
 # Trader's Tools
-Every [insight, tool, tip] is a result of losing too much money :crocodile:.
+Insights, tools and tips due to losing too much money :crocodile:.
 
-* [Design Patterns](https://github.com/algonell/TradersTools/tree/main/Design%20Patterns) - real-life examples of working with the [Interactive Brokers TWS API](https://interactivebrokers.github.io/tws-api/) (Java).
-* Numer.ai - tools for creating symbol lists (Python).
+* Things You Learn After 1 Year of Day Trading for a Living [[Medium]](https://algonell.medium.com/things-you-learn-after-1-year-of-day-trading-for-a-living-a97bbc8d19fa) - or what **not** to do in the markets.
+* Numer.ai - tools for creating symbol lists (attic).
 
-# Books
+## Design Patterns (Java)
+* Real-life examples of working with the [Interactive Brokers TWS API](https://interactivebrokers.github.io/tws-api/index.html)
+* Join the repository [here](https://interactivebrokers.github.io/).
+
+Pattern | Demo | Idea
+--- | --- | ---
+Singleton | [SingletonDemo](https://github.com/algonell/TradersTools/blob/main/Design%20Patterns/org/algonell/trading/dp/singleton/SingletonDemo.java) | Manage multiple accounts (connections, disconnections, execution requests, orders requests and etc.) via single object and once.
+Factory Method | [FactoryMethodDemo](https://github.com/algonell/TradersTools/blob/main/Design%20Patterns/org/algonell/trading/dp/factorymethod/FactoryMethodDemo.java) | Change historical data provider across all code base with a single modification.
+Facade | [FacadeDemo](https://github.com/algonell/TradersTools/blob/main/Design%20Patterns/org/algonell/trading/dp/facade/FacadeDemo.java) | Wrap complex logic with simple access point.
+
+### TODO
+- [x] Singleton
+- [x] Factory Method
+- [x] Facade
+- [ ] Adapter
+- [ ] Composite
+- [ ] Proxy
+- [ ] Decorator
+
+## Books
 * Thinking, Fast and Slow [[Daniel Kahneman]](https://www.amazon.com/gp/product/0374533555/ref=as_li_tl?ie=UTF8&tag=algonell-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0374533555&linkId=41df8a28a4e4d3b79b918aaa994449b4)
 
 * Fooled by Randomness: The Hidden Role of Chance in Life and in the Markets [[Nassim Nicholas Taleb]](https://www.amazon.com/gp/product/0812975219/ref=as_li_tl?ie=UTF8&tag=algonell-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0812975219&linkId=1d3e2d9ef23e1611ee2c4c4926692cec)
