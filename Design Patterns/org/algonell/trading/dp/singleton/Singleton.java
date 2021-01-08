@@ -6,7 +6,7 @@ package org.algonell.trading.dp.singleton;
  * @author Andrew Kreimer
  *
  */
-public class SingletonDemo {
+public class Singleton {
 	
 	public static void main(String[] args) {
 		IbManager.INSTANCE.init();

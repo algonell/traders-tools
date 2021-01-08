@@ -6,9 +6,9 @@ package org.algonell.trading.dp.factorymethod;
  * @author Andrew Kreimer
  *
  */
-public class FactoryMethodDemo {
+public class FactoryMethod {
 
-	private static final org.apache.logging.log4j.Logger LOGGER = org.apache.logging.log4j.LogManager.getLogger(FactoryMethodDemo.class);
+	private static final org.apache.logging.log4j.Logger LOGGER = org.apache.logging.log4j.LogManager.getLogger(FactoryMethod.class);
 	
 	public static void main(String[] args) {
 		//using IB

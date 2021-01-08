@@ -6,9 +6,9 @@ package org.algonell.trading.dp.adapter;
  * @author Andrew Kreimer
  *
  */
-public class AdapterDemo {
+public class Adapter {
 
-	private static final org.apache.logging.log4j.Logger LOGGER = org.apache.logging.log4j.LogManager.getLogger(AdapterDemo.class);
+	private static final org.apache.logging.log4j.Logger LOGGER = org.apache.logging.log4j.LogManager.getLogger(Adapter.class);
 	
 	public static void main(String[] args) {
 		//original bars

@@ -6,7 +6,7 @@ package org.algonell.trading.dp.facade;
  * @author Andrew Kreimer
  *
  */
-public class FacadeDemo {
+public class Facade {
 	
 	public static void main(String[] args) {
 		IbConnector ibConnector = new IbConnector();
