@@ -10,7 +10,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  */
 public final class OrderIdGenerator {
 
-	private AtomicInteger integer = new AtomicInteger(1);
+	private AtomicInteger integer = new AtomicInteger(0);
 	
 	public int next() {
 		//generate next order id
