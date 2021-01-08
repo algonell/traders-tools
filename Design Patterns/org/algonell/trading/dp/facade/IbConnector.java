@@ -34,8 +34,7 @@ public class IbConnector {
 				break;
 		}
 		
-		String trade = trader.trade();
-		LOGGER.info(trade);
+		LOGGER.info(() -> trader.trade());
 	}
 
 }
