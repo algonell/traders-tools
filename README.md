@@ -8,17 +8,18 @@ Insights, tools and tips as a result of losing too much money :crocodile:.
 * Real-life examples of working with the [Interactive Brokers TWS API](https://interactivebrokers.github.io/tws-api/index.html)
 * Join the repository [here](https://interactivebrokers.github.io/).
 
-Pattern | Demo | Idea
---- | --- | ---
-Singleton | [SingletonDemo](https://github.com/algonell/TradersTools/blob/main/Design%20Patterns/org/algonell/trading/dp/singleton/SingletonDemo.java) | Manage multiple accounts (connections, disconnections, execution requests, orders requests and etc.) via single object and once.
-Factory Method | [FactoryMethodDemo](https://github.com/algonell/TradersTools/blob/main/Design%20Patterns/org/algonell/trading/dp/factorymethod/FactoryMethodDemo.java) | Change historical data provider across all code base with a single modification.
-Facade | [FacadeDemo](https://github.com/algonell/TradersTools/blob/main/Design%20Patterns/org/algonell/trading/dp/facade/FacadeDemo.java) | Wrap complex logic with simple access point.
+Pattern | Idea
+ --- | ---
+[Singleton](https://github.com/algonell/TradersTools/blob/main/Design%20Patterns/org/algonell/trading/dp/singleton/Singleton.java) | Manage multiple accounts (connections, disconnections, execution requests, orders requests and etc.) via single object and once.
+[Factory Method](https://github.com/algonell/TradersTools/blob/main/Design%20Patterns/org/algonell/trading/dp/factorymethod/FactoryMethod.java) | Change historical data provider across all code base with a single modification.
+[Facade](https://github.com/algonell/TradersTools/blob/main/Design%20Patterns/org/algonell/trading/dp/facade/Facade.java) | Wrap complex logic with simple access point.
+[Adapter](https://github.com/algonell/TradersTools/blob/main/Design%20Patterns/org/algonell/trading/dp/adapter/Adapter.java) | Use standard m30 bars to create custom H4 bars in a different time zone.
 
 ### TODO
 - [x] Singleton
 - [x] Factory Method
 - [x] Facade
-- [ ] Adapter
+- [X] Adapter
 - [ ] Composite
 - [ ] Proxy
 - [ ] Decorator
