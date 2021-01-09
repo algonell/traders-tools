@@ -15,13 +15,14 @@ Pattern | Idea
 [Factory Method](https://github.com/algonell/TradersTools/blob/main/Design%20Patterns/org/algonell/trading/dp/factorymethod/FactoryMethod.java) | Change historical data provider across all code base with a single modification.
 [Facade](https://github.com/algonell/TradersTools/blob/main/Design%20Patterns/org/algonell/trading/dp/facade/Facade.java) | Wrap complex logic with simple access point.
 [Adapter](https://github.com/algonell/TradersTools/blob/main/Design%20Patterns/org/algonell/trading/dp/adapter/Adapter.java) | Use standard m30 bars to create custom H4 bars in a different time zone.
+[Composite](https://github.com/algonell/TradersTools/blob/main/Design%20Patterns/org/algonell/trading/dp/composite/Composite.java) | Single option is the building block of a complex options position.
 
 ### TODO
 - [x] Singleton
 - [x] Factory Method
 - [x] Facade
-- [X] Adapter
-- [ ] Composite
+- [x] Adapter
+- [x] Composite
 - [ ] Proxy
 - [ ] Decorator
 
