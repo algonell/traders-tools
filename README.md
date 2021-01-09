@@ -7,6 +7,7 @@ Insights, tools and tips as a result of losing too much money :crocodile:.
 ## Design Patterns (Java)
 * Real-life examples of working with the [Interactive Brokers TWS API](https://interactivebrokers.github.io/tws-api/index.html)
 * Join the repository [here](https://interactivebrokers.github.io/).
+* Inspired by the University of Alberta [course](https://www.coursera.org/learn/design-patterns).
 
 Pattern | Idea
  --- | ---
