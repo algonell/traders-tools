@@ -16,6 +16,7 @@ Pattern | Idea
 [Facade](https://github.com/algonell/TradersTools/blob/main/Design%20Patterns/org/algonell/trading/dp/facade/Facade.java) | Wrap complex logic with simple access point.
 [Adapter](https://github.com/algonell/TradersTools/blob/main/Design%20Patterns/org/algonell/trading/dp/adapter/Adapter.java) | Use standard m30 bars to create custom H4 bars in a different time zone.
 [Composite](https://github.com/algonell/TradersTools/blob/main/Design%20Patterns/org/algonell/trading/dp/composite/Composite.java) | Single option is the building block of a complex options position.
+[Proxy](https://github.com/algonell/TradersTools/blob/main/Design%20Patterns/org/algonell/trading/dp/proxy/Proxy.java) | Use cached data access when applicable, request and store new if none available.
 
 ### TODO
 - [x] Singleton
@@ -23,7 +24,7 @@ Pattern | Idea
 - [x] Facade
 - [x] Adapter
 - [x] Composite
-- [ ] Proxy
+- [x] Proxy
 - [ ] Decorator
 
 ## Books
