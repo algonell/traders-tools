@@ -17,6 +17,7 @@ Pattern | Idea
 [Adapter](https://github.com/algonell/TradersTools/blob/main/Design%20Patterns/org/algonell/trading/dp/adapter/Adapter.java) | Use standard m30 bars to create custom H4 bars in a different time zone.
 [Composite](https://github.com/algonell/TradersTools/blob/main/Design%20Patterns/org/algonell/trading/dp/composite/Composite.java) | Single option is the building block of a complex options position.
 [Proxy](https://github.com/algonell/TradersTools/blob/main/Design%20Patterns/org/algonell/trading/dp/proxy/Proxy.java) | Use cached data access when applicable, request and store new if none available.
+[Decorator](https://github.com/algonell/TradersTools/blob/main/Design%20Patterns/org/algonell/trading/dp/decorator/Decorator.java) | Extend functionality of standard request handlers.
 
 ### TODO
 - [x] Singleton
@@ -25,7 +26,7 @@ Pattern | Idea
 - [x] Adapter
 - [x] Composite
 - [x] Proxy
-- [ ] Decorator
+- [x] Decorator
 
 ## Books
 * Thinking, Fast and Slow [[Daniel Kahneman]](https://www.amazon.com/gp/product/0374533555/ref=as_li_tl?ie=UTF8&tag=algonell-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0374533555&linkId=41df8a28a4e4d3b79b918aaa994449b4)
