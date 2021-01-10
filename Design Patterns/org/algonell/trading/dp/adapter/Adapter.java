@@ -1,7 +1,7 @@
 package org.algonell.trading.dp.adapter;
 
 /**
- * Adapter Demo: use standard m30 bars to create custom H4 bars in a different time zone.
+ * Adapter demo: use standard m30 bars to create custom H4 bars in a different time zone.
  * 
  * @author Andrew Kreimer
  *

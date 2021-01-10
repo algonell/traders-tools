@@ -1,7 +1,7 @@
 package org.algonell.trading.dp.facade;
 
 /**
- * Facade Demo: IbConnector class to wrap complex trading requests with simple access.
+ * Facade demo: IbConnector class to wrap complex trading requests with simple access.
  * 
  * @author Andrew Kreimer
  *
