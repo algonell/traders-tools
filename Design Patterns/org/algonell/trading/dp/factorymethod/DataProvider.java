@@ -12,6 +12,6 @@ package org.algonell.trading.dp.factorymethod;
  */
 public interface DataProvider {
 
-	public String getData();
+	String getData();
 	
 }

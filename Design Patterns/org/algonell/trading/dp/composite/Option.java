@@ -8,6 +8,6 @@ package org.algonell.trading.dp.composite;
  */
 public interface Option {
 
-	public double calculateDelta();
+	double calculateDelta();
 	
 }

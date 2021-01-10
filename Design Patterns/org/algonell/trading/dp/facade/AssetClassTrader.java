@@ -8,6 +8,6 @@ package org.algonell.trading.dp.facade;
  */
 public interface AssetClassTrader {
 
-	public String trade();
+	String trade();
 	
 }
