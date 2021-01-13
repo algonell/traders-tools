@@ -9,15 +9,15 @@ Insights, tools and tips as a result of losing too much money :crocodile:.
 * Join the repository [here](https://interactivebrokers.github.io/).
 * Inspired by the University of Alberta [course](https://www.coursera.org/learn/design-patterns).
 
-Pattern | Idea
- --- | ---
-[Singleton](https://github.com/algonell/TradersTools/blob/main/Design%20Patterns/org/algonell/trading/dp/singleton/Singleton.java) | Manage multiple accounts (connections, disconnections, execution requests, orders requests and etc.) via single object and once.
-[Factory Method](https://github.com/algonell/TradersTools/blob/main/Design%20Patterns/org/algonell/trading/dp/factorymethod/FactoryMethod.java) | Change historical data provider across all code base with a single modification.
-[Facade](https://github.com/algonell/TradersTools/blob/main/Design%20Patterns/org/algonell/trading/dp/facade/Facade.java) | Wrap complex logic with simple access point.
-[Adapter](https://github.com/algonell/TradersTools/blob/main/Design%20Patterns/org/algonell/trading/dp/adapter/Adapter.java) | Use standard m30 bars to create custom H4 bars in a different time zone.
-[Composite](https://github.com/algonell/TradersTools/blob/main/Design%20Patterns/org/algonell/trading/dp/composite/Composite.java) | Single option is the building block of a complex options position.
-[Proxy](https://github.com/algonell/TradersTools/blob/main/Design%20Patterns/org/algonell/trading/dp/proxy/Proxy.java) | Use cached data access when applicable, request and store new if none available.
-[Decorator](https://github.com/algonell/TradersTools/blob/main/Design%20Patterns/org/algonell/trading/dp/decorator/Decorator.java) | Extend functionality of standard request handlers.
+Pattern | Category | Idea
+ --- | --- | ---
+[Singleton](https://github.com/algonell/TradersTools/blob/main/Design%20Patterns/org/algonell/trading/dp/singleton/Singleton.java) | Creational | Manage multiple accounts (connections, disconnections, execution requests, orders requests and etc.) via single object and once.
+[Factory Method](https://github.com/algonell/TradersTools/blob/main/Design%20Patterns/org/algonell/trading/dp/factorymethod/FactoryMethod.java) | Creational | Change historical data provider across all code base with a single modification.
+[Facade](https://github.com/algonell/TradersTools/blob/main/Design%20Patterns/org/algonell/trading/dp/facade/Facade.java) | Structural | Wrap complex logic with simple access point.
+[Adapter](https://github.com/algonell/TradersTools/blob/main/Design%20Patterns/org/algonell/trading/dp/adapter/Adapter.java) | Structural | Use standard m30 bars to create custom H4 bars in a different time zone.
+[Composite](https://github.com/algonell/TradersTools/blob/main/Design%20Patterns/org/algonell/trading/dp/composite/Composite.java) | Structural | Single option is the building block of a complex options position.
+[Proxy](https://github.com/algonell/TradersTools/blob/main/Design%20Patterns/org/algonell/trading/dp/proxy/Proxy.java) | Structural | Use cached data access when applicable, request and store new if none available.
+[Decorator](https://github.com/algonell/TradersTools/blob/main/Design%20Patterns/org/algonell/trading/dp/decorator/Decorator.java) | Structural | Extend functionality of standard request handlers.
 
 ### TODO
 - [x] Singleton
