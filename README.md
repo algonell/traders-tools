@@ -20,13 +20,12 @@ Pattern | Category | Idea
 [Decorator](https://github.com/algonell/TradersTools/blob/main/Design%20Patterns/org/algonell/trading/dp/decorator/Decorator.java) | Structural | Extend functionality of standard request handlers.
 
 ### TODO
-- [x] Singleton
-- [x] Factory Method
-- [x] Facade
-- [x] Adapter
-- [x] Composite
-- [x] Proxy
-- [x] Decorator
+- [ ] Template Method
+- [ ] Chain of Responsibility
+- [ ] State
+- [ ] Command
+- [ ] Mediator
+- [ ] Observer
 
 ## Books
 * Thinking, Fast and Slow [[Daniel Kahneman]](https://www.amazon.com/gp/product/0374533555/ref=as_li_tl?ie=UTF8&tag=algonell-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0374533555&linkId=41df8a28a4e4d3b79b918aaa994449b4)
