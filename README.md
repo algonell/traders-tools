@@ -18,9 +18,10 @@ Pattern | Category | Idea
 [Composite](https://github.com/algonell/TradersTools/blob/main/Design%20Patterns/org/algonell/trading/dp/composite/Composite.java) | Structural | Single option is the building block of a complex options position.
 [Proxy](https://github.com/algonell/TradersTools/blob/main/Design%20Patterns/org/algonell/trading/dp/proxy/Proxy.java) | Structural | Use cached data access when applicable, request and store new if none available.
 [Decorator](https://github.com/algonell/TradersTools/blob/main/Design%20Patterns/org/algonell/trading/dp/decorator/Decorator.java) | Structural | Extend functionality of standard request handlers.
+[Template Method](https://github.com/algonell/TradersTools/blob/main/Design%20Patterns/org/algonell/trading/dp/behavioral/templatemethod/TemplateMethod.java) | Behavioral | Use template trading flow for various asset classes.
 
 ### TODO
-- [ ] Template Method
+- [x] Template Method
 - [ ] Chain of Responsibility
 - [ ] State
 - [ ] Command
