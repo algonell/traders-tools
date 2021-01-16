@@ -20,11 +20,12 @@ Pattern | Category | Idea
 [Decorator](https://github.com/algonell/TradersTools/blob/main/Design%20Patterns/org/algonell/trading/dp/decorator/Decorator.java) | Structural | Extend functionality of standard request handlers.
 [Template Method](https://github.com/algonell/TradersTools/blob/main/Design%20Patterns/org/algonell/trading/dp/behavioral/templatemethod/TemplateMethod.java) | Behavioral | Use template trading flow for various asset classes.
 [Chain of Responsibility](https://github.com/algonell/TradersTools/blob/main/Design%20Patterns/org/algonell/trading/dp/behavioral/chainofresponsibility/ChainOfResponsibility.java) | Behavioral | Trade risk assessment via chain of validation rules.
+[State](https://github.com/algonell/TradersTools/blob/main/Design%20Patterns/org/algonell/trading/dp/behavioral/state/State.java) | Behavioral | Trade multiple sessions of the same market.
 
 ### TODO
 - [x] Template Method
 - [x] Chain of Responsibility
-- [ ] State
+- [x] State
 - [ ] Command
 - [ ] Mediator
 - [ ] Observer
