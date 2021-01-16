@@ -1,0 +1,30 @@
+package org.algonell.trading.dp.behavioral.chainofresponsibility;
+
+/**
+ * Any trade has to pass multiple risk assessment rules before submitted.
+ * 
+ * @author Andrew Kreimer
+ *
+ */
+public abstract class RiskValidator {
+
+	protected RiskValidator next;
+	
+	/**
+	 * Link next rule in chain
+	 * 
+	 * @param next
+	 */
+	protected RiskValidator(RiskValidator next) {
+		this.next = next;
+	}
+	
+	/**
+	 * Check rule
+	 * 
+	 * @param risk
+	 * @return
+	 */
+	public abstract String check(double risk);
+	
+}
