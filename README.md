@@ -24,9 +24,7 @@ Pattern | Category | Idea
 [Command](https://github.com/algonell/TradersTools/blob/main/Design%20Patterns/org/algonell/trading/dp/behavioral/command/Command.java) | Behavioral | Perform account related tasks (data, trading, risk assessment and etc.) efficiently.
 [Mediator](https://github.com/algonell/TradersTools/blob/main/Design%20Patterns/org/algonell/trading/dp/behavioral/mediator/Mediator.java) | Behavioral | Manage portfolio exposure with different instruments.
 [Observer](https://github.com/algonell/TradersTools/blob/main/Design%20Patterns/org/algonell/trading/dp/behavioral/observer/Observer.java) | Behavioral | Price alerts for various asset classes.
-
-### TODO
-- [ ] MVC
+[MVC](https://github.com/algonell/TradersTools/blob/main/Design%20Patterns/org/algonell/trading/dp/behavioral/mvc/Mvc.java) | Behavioral | Account management (trading controller, risk model and balance view).
 
 ## Books
 * Thinking, Fast and Slow [[Daniel Kahneman]](https://www.amazon.com/gp/product/0374533555/ref=as_li_tl?ie=UTF8&tag=algonell-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0374533555&linkId=41df8a28a4e4d3b79b918aaa994449b4)
