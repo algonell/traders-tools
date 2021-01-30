@@ -1,4 +1,4 @@
-package org.algonell.trading.dp.behavioral.mvc;
+package org.algonell.trading.dp.architectural.mvc;
 
 /**
  * Account controller: orchestrate trading, risk assessment and balance updates.  

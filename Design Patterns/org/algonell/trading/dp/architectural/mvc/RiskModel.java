@@ -1,4 +1,4 @@
-package org.algonell.trading.dp.behavioral.mvc;
+package org.algonell.trading.dp.architectural.mvc;
 
 import java.util.HashSet;
 import java.util.Set;

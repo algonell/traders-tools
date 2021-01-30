@@ -1,4 +1,4 @@
-package org.algonell.trading.dp.behavioral.mvc;
+package org.algonell.trading.dp.architectural.mvc;
 
 /**
  * MVC demo: account management (trading controller, risk model and balance view).
