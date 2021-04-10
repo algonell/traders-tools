@@ -1,7 +1,7 @@
 package org.algonell.trading.dp.creational.factorymethod;
 
 /**
- * Supported data providers by the system
+ * Supported data providers by the system.
  * 
  * @author Andrew Kreimer
  *

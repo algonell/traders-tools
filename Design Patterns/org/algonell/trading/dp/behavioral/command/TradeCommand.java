@@ -1,7 +1,7 @@
 package org.algonell.trading.dp.behavioral.command;
 
 /**
- * Trade command: any trading related command (buy SPY, sell 6E and etc.)
+ * Trade command: any trading related command (buy SPY, sell 6E and etc.).
  * 
  * @author Andrew Kreimer
  *

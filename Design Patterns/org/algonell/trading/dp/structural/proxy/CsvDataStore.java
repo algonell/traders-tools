@@ -11,7 +11,7 @@ import java.util.Set;
  */
 public class CsvDataStore implements DataStore {
 
-	Set<String> data;
+	private Set<String> data;
 	
 	public CsvDataStore() {
 		//has data for
@@ -26,17 +26,16 @@ public class CsvDataStore implements DataStore {
 	}
 	
 	/**
-	 * Check if contains CSV for this symbol
+	 * Checks if contains CSV for this symbol.
 	 * 
 	 * @param symbol
-	 * @return
 	 */
 	public boolean contains(String symbol) {
 		return data.contains(symbol);
 	}
 
 	/**
-	 * Request and store new data
+	 * Requests and stores new data.
 	 * 
 	 * @param symbol
 	 */

@@ -3,7 +3,7 @@ package org.algonell.trading.dp.structural.facade;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
- * Helper class for generating order id sequences
+ * Helper class for generating order id sequences.
  * 
  * @author Andrew Kreimer
  *

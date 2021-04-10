@@ -1,7 +1,7 @@
 package org.algonell.trading.dp.behavioral.command;
 
 /**
- * Data command: any data related task (cache, request, store and etc.)
+ * Data command: any data related task (cache, request, store and etc.).
  * 
  * @author Andrew Kreimer
  *

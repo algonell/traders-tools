@@ -11,7 +11,7 @@ public abstract class RiskValidator {
 	protected RiskValidator next;
 	
 	/**
-	 * Link next rule in chain
+	 * Links next rule in chain.
 	 * 
 	 * @param next
 	 */
@@ -20,10 +20,9 @@ public abstract class RiskValidator {
 	}
 	
 	/**
-	 * Check rule
+	 * Checks rule.
 	 * 
 	 * @param risk
-	 * @return
 	 */
 	public abstract String check(double risk);
 	

@@ -29,7 +29,8 @@ public final class IbQuotesMonitor implements QuotesMonitor {
 	}
 
 	/**
-	 * When prices being refreshed
+	 * Perform on tick tasks.
+	 * Happens When prices are being refreshed.
 	 */
 	@Override
 	public void onTick(double change) {

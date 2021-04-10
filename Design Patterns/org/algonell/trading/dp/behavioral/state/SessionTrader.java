@@ -18,18 +18,10 @@ public class SessionTrader {
 		this.activeSession = startingSession;
 	}
 	
-	public Session getAsiaSession() {
-		return asiaSession;
-	}
-	public Session getEuSession() {
-		return euSession;
-	}
-	public Session getUsSession() {
-		return usSession;
-	}
-	public void setActiveSession(Session activeSession) {
-		this.activeSession = activeSession;
-	}
+	public Session getAsiaSession() { return asiaSession; }
+	public Session getEuSession() { return euSession; }
+	public Session getUsSession() { return usSession; }
+	public void setActiveSession(Session activeSession) { this.activeSession = activeSession; }
 	
 	public String trade() {
 		return activeSession.trade(this);

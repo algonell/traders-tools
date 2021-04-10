@@ -16,12 +16,7 @@ public class TradingController {
 		model.subscribe(view);
 	}
 	
-	public RiskModel getModel() {
-		return model;
-	}
-	
-	public BalanceView getView() {
-		return view;
-	}
+	public RiskModel getModel() { return model; }
+	public BalanceView getView() { return view; }
 	
 }

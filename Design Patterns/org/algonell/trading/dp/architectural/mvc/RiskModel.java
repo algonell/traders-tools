@@ -27,12 +27,7 @@ public class RiskModel {
 		observers.forEach(o -> o.view(msg));
 	}
 
-	public double getDelta() {
-		return delta;
-	}
-
-	public void setDelta(double delta) {
-		this.delta = delta;
-	}
+	public double getDelta() { return delta; }
+	public void setDelta(double delta) { this.delta = delta; }
 
 }
