@@ -9,7 +9,7 @@ package org.algonell.trading.dp.structural.facade;
 public class Facade {
 	
 	public static void main(String[] args) {
-		IbConnector ibConnector = new IbConnector();
+		var ibConnector = new IbConnector();
 		
 		ibConnector.trade(AssetClassType.COMMODITIES);
 		ibConnector.trade(AssetClassType.FX);

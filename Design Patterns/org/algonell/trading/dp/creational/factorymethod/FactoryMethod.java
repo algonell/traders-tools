@@ -12,11 +12,11 @@ public class FactoryMethod {
 	
 	public static void main(String[] args) {
 		//using IB
-		DataProvider ibProvider = DataProviderFactory.createProvider(DataProviderType.IB);
+		var ibProvider = DataProviderFactory.createProvider(DataProviderType.IB);
 		LOGGER.info(ibProvider.getData());
 		
 		//using Quandl
-		DataProvider quandlProvider = DataProviderFactory.createProvider(DataProviderType.QUANDL);
+		var quandlProvider = DataProviderFactory.createProvider(DataProviderType.QUANDL);
 		LOGGER.info(quandlProvider.getData());
 	}
 

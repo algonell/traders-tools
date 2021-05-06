@@ -14,7 +14,7 @@ public class Mediator {
 	
 	public static void main(String[] args) {
 		//exposures manager
-		IbExposureManager manager = new IbExposureManager();
+		var manager = new IbExposureManager();
 		
 		//add exposures
 		Exposure exposure = new StocksExposure(manager);

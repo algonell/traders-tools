@@ -11,7 +11,7 @@ public class Proxy {
 	private static final org.apache.logging.log4j.Logger LOGGER = org.apache.logging.log4j.LogManager.getLogger(Proxy.class);
 	
 	public static void main(String[] args) {
-		CachedDataStore ds = new CachedDataStore();
+		var ds = new CachedDataStore();
 
 		//contains data
 		LOGGER.info(ds.getData("ES"));

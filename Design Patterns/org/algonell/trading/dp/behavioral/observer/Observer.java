@@ -10,10 +10,10 @@ public class Observer {
 
 	public static void main(String[] args) {
 		//price change monitor
-		IbQuotesMonitor monitor = new IbQuotesMonitor();
+		var monitor = new IbQuotesMonitor();
 		
 		//add subscribers
-		StocksAlert stocksAlert = new StocksAlert();
+		var stocksAlert = new StocksAlert();
 		monitor.subscribe(stocksAlert);
 		monitor.subscribe(new FuturesAlert());
 		
