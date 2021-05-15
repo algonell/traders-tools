@@ -10,8 +10,8 @@ import java.util.List;
  */
 public abstract class Bars {
 
-	protected List<Object> prices;
-	
-	public abstract String calculateRange();
-	
+  protected List<Object> prices;
+
+  public abstract String calculateRange();
+
 }

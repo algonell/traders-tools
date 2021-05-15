@@ -8,9 +8,9 @@ package org.algonell.trading.dp.structural.facade;
  */
 public class EquitiesTrader implements AssetClassTrader {
 
-	@Override
-	public String trade() {
-		return "long SPY";
-	}
+  @Override
+  public String trade() {
+    return "long SPY";
+  }
 
 }

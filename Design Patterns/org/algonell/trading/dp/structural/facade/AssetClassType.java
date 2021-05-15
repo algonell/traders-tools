@@ -7,7 +7,5 @@ package org.algonell.trading.dp.structural.facade;
  *
  */
 public enum AssetClassType {
-	EQUITIES,
-	FX,
-	COMMODITIES
+  EQUITIES, FX, COMMODITIES
 }

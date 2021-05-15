@@ -11,36 +11,36 @@ import java.util.Set;
  */
 public class CsvDataStore implements DataStore {
 
-	private Set<String> data;
-	
-	public CsvDataStore() {
-		//has data for
-		data = new HashSet<>();
-		data.add("ES");
-		data.add("MES"); 
-	}
-	
-	@Override
-	public String getData(String symbol) {
-		return symbol + ": got data from CSV file";
-	}
-	
-	/**
-	 * Checks if contains CSV for this symbol.
-	 * 
-	 * @param symbol
-	 */
-	public boolean contains(String symbol) {
-		return data.contains(symbol);
-	}
+  private Set<String> data;
 
-	/**
-	 * Requests and stores new data.
-	 * 
-	 * @param symbol
-	 */
-	public void request(String symbol) {
-		data.add(symbol);
-	}
-	
+  public CsvDataStore() {
+    // has data for
+    data = new HashSet<>();
+    data.add("ES");
+    data.add("MES");
+  }
+
+  @Override
+  public String getData(String symbol) {
+    return symbol + ": got data from CSV file";
+  }
+
+  /**
+   * Checks if contains CSV for this symbol.
+   * 
+   * @param symbol
+   */
+  public boolean contains(String symbol) {
+    return data.contains(symbol);
+  }
+
+  /**
+   * Requests and stores new data.
+   * 
+   * @param symbol
+   */
+  public void request(String symbol) {
+    data.add(symbol);
+  }
+
 }

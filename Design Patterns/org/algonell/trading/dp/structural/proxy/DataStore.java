@@ -8,6 +8,6 @@ package org.algonell.trading.dp.structural.proxy;
  */
 public interface DataStore {
 
-	String getData(String symbol);
-	
+  String getData(String symbol);
+
 }

@@ -8,14 +8,14 @@ package org.algonell.trading.dp.behavioral.templatemethod;
  */
 public class TemplateMethod {
 
-	public static void main(String[] args) {
-		//trade futures
-		Trader trader = new FuturesTrader(); 
-		trader.trade();
-		
-		//trade FX
-		trader = new FxTrader();
-		trader.trade();
-	}
+  public static void main(String[] args) {
+    // trade futures
+    Trader trader = new FuturesTrader();
+    trader.trade();
+
+    // trade FX
+    trader = new FxTrader();
+    trader.trade();
+  }
 
 }

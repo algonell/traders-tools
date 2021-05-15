@@ -7,13 +7,13 @@ package org.algonell.trading.dp.structural.facade;
  *
  */
 public class Facade {
-	
-	public static void main(String[] args) {
-		var ibConnector = new IbConnector();
-		
-		ibConnector.trade(AssetClassType.COMMODITIES);
-		ibConnector.trade(AssetClassType.FX);
-		ibConnector.trade(AssetClassType.EQUITIES);
-	}
-	
+
+  public static void main(String[] args) {
+    var ibConnector = new IbConnector();
+
+    ibConnector.trade(AssetClassType.COMMODITIES);
+    ibConnector.trade(AssetClassType.FX);
+    ibConnector.trade(AssetClassType.EQUITIES);
+  }
+
 }

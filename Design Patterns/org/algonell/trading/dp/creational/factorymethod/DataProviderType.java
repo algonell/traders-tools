@@ -7,7 +7,5 @@ package org.algonell.trading.dp.creational.factorymethod;
  *
  */
 public enum DataProviderType {
-	IB,
-	QUANDL,
-	TRADIER
+  IB, QUANDL, TRADIER
 }

@@ -11,12 +11,12 @@ import java.util.List;
  */
 public class IbTaskManager {
 
-	private final List<IbCommand> tasks = new ArrayList<>();
-	
-	public String perform(IbCommand task) {
-		tasks.add(task);
-		
-		return task.perform();
-	}
-	
+  private final List<IbCommand> tasks = new ArrayList<>();
+
+  public String perform(IbCommand task) {
+    tasks.add(task);
+
+    return task.perform();
+  }
+
 }

@@ -8,9 +8,9 @@ package org.algonell.trading.dp.structural.adapter;
  */
 public class M30Bars extends Bars {
 
-	@Override
-	public String calculateRange() {
-		return "calculated range of m30 bars";
-	}
-	
+  @Override
+  public String calculateRange() {
+    return "calculated range of m30 bars";
+  }
+
 }

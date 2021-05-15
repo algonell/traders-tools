@@ -8,22 +8,22 @@ package org.algonell.trading.dp.behavioral.chainofresponsibility;
  */
 public abstract class RiskValidator {
 
-	protected RiskValidator next;
-	
-	/**
-	 * Links next rule in chain.
-	 * 
-	 * @param next
-	 */
-	protected RiskValidator(RiskValidator next) {
-		this.next = next;
-	}
-	
-	/**
-	 * Checks rule.
-	 * 
-	 * @param risk
-	 */
-	public abstract String check(double risk);
-	
+  protected RiskValidator next;
+
+  /**
+   * Links next rule in chain.
+   * 
+   * @param next
+   */
+  protected RiskValidator(RiskValidator next) {
+    this.next = next;
+  }
+
+  /**
+   * Checks rule.
+   * 
+   * @param risk
+   */
+  public abstract String check(double risk);
+
 }

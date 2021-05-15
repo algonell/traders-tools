@@ -8,10 +8,10 @@ package org.algonell.trading.dp.structural.composite;
  */
 public class PutOption implements Option {
 
-	@Override
-	public double calculateDelta() {
-		// depends on the strike, IV and etc.
-		return -0.5;
-	}
+  @Override
+  public double calculateDelta() {
+    // depends on the strike, IV and etc.
+    return -0.5;
+  }
 
 }

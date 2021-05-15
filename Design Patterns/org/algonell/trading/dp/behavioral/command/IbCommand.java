@@ -8,12 +8,12 @@ package org.algonell.trading.dp.behavioral.command;
  */
 public abstract class IbCommand {
 
-	protected IbAccountManager manager;
-	
-	protected IbCommand(IbAccountManager manager) {
-		this.manager = manager;
-	}
-	
-	public abstract String perform();
-	
+  protected IbAccountManager manager;
+
+  protected IbCommand(IbAccountManager manager) {
+    this.manager = manager;
+  }
+
+  public abstract String perform();
+
 }

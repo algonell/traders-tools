@@ -10,29 +10,29 @@ package org.algonell.trading.dp.creational.factorymethod;
  */
 public final class DataProviderFactory {
 
-	private DataProviderFactory() {}
-	
-	public static DataProvider createProvider(DataProviderType type) {
-		DataProvider provider = null;
-		
-		switch (type) {
-			case IB:
-				provider = new IbDataProvider();
-				break;
+  private DataProviderFactory() {}
 
-			case QUANDL:
-				provider = new QuandlDataProvider();
-				break;
-				
-			case TRADIER:
-				provider = new TradierDataProvider();
-				break;
-				
-			default:
-				break;
-		}
-		
-		return provider;
-	}
-	
+  public static DataProvider createProvider(DataProviderType type) {
+    DataProvider provider = null;
+
+    switch (type) {
+      case IB:
+        provider = new IbDataProvider();
+        break;
+
+      case QUANDL:
+        provider = new QuandlDataProvider();
+        break;
+
+      case TRADIER:
+        provider = new TradierDataProvider();
+        break;
+
+      default:
+        break;
+    }
+
+    return provider;
+  }
+
 }

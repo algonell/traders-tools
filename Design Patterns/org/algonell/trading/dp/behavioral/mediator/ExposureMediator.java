@@ -8,6 +8,6 @@ package org.algonell.trading.dp.behavioral.mediator;
  */
 public interface ExposureMediator {
 
-	double calculateDelta();
+  double calculateDelta();
 
 }

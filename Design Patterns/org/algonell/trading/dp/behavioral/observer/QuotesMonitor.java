@@ -8,12 +8,12 @@ package org.algonell.trading.dp.behavioral.observer;
  */
 public interface QuotesMonitor {
 
-	void subscribe(PriceAlert alert);
-	
-	void unsubscribe(PriceAlert alert);
-	
-	void trigger(double change); //in %
-	
-	void onTick(double change); //in %
-	
+  void subscribe(PriceAlert alert);
+
+  void unsubscribe(PriceAlert alert);
+
+  void trigger(double change); // in %
+
+  void onTick(double change); // in %
+
 }

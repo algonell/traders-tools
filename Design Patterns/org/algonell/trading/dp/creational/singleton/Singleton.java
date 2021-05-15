@@ -7,15 +7,15 @@ package org.algonell.trading.dp.creational.singleton;
  *
  */
 public class Singleton {
-	
-	public static void main(String[] args) {
-		IbManager.INSTANCE.init();
-		
-		IbManager.INSTANCE.requestOpenOrders();
-		
-		IbManager.INSTANCE.requestExecutions();
-		
-		IbManager.INSTANCE.disconnect();
-	}
+
+  public static void main(String[] args) {
+    IbManager.INSTANCE.init();
+
+    IbManager.INSTANCE.requestOpenOrders();
+
+    IbManager.INSTANCE.requestExecutions();
+
+    IbManager.INSTANCE.disconnect();
+  }
 
 }

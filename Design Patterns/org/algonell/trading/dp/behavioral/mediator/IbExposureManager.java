@@ -11,15 +11,15 @@ import java.util.List;
  */
 public class IbExposureManager implements ExposureMediator {
 
-	private List<Exposure> exposures = new ArrayList<>();
-	
-	@Override
-	public double calculateDelta() {
-		return exposures.stream().mapToDouble(Exposure::get).sum();
-	}
+  private List<Exposure> exposures = new ArrayList<>();
 
-	public void addExposure(Exposure exposure) {
-		exposures.add(exposure);
-	}
+  @Override
+  public double calculateDelta() {
+    return exposures.stream().mapToDouble(Exposure::get).sum();
+  }
+
+  public void addExposure(Exposure exposure) {
+    exposures.add(exposure);
+  }
 
 }

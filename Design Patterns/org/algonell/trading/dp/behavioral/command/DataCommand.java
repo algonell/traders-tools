@@ -8,13 +8,13 @@ package org.algonell.trading.dp.behavioral.command;
  */
 public class DataCommand extends IbCommand {
 
-	protected DataCommand(IbAccountManager manager) {
-		super(manager);
-	}
+  protected DataCommand(IbAccountManager manager) {
+    super(manager);
+  }
 
-	@Override
-	public String perform() {
-		return manager.getData().get();
-	}
+  @Override
+  public String perform() {
+    return manager.getData().get();
+  }
 
 }

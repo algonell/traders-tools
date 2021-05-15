@@ -8,21 +8,21 @@ package org.algonell.trading.dp.structural.composite;
  */
 public class Composite {
 
-	private static final org.apache.logging.log4j.Logger LOGGER = 
-			org.apache.logging.log4j.LogManager.getLogger(Composite.class);
-	
-	public static void main(String[] args) {
-		//make some options
-		var call = new CallOption();
-		var put = new PutOption();
-		
-		//assemble position (some kind of a ratio 2:1)
-		var spread = new OptionsSpread();
-		spread.addOption(call);
-		spread.addOption(call);
-		spread.addOption(put);
-		
-		LOGGER.info(spread::calculateDelta);
-	}
+  private static final org.apache.logging.log4j.Logger LOGGER =
+      org.apache.logging.log4j.LogManager.getLogger(Composite.class);
+
+  public static void main(String[] args) {
+    // make some options
+    var call = new CallOption();
+    var put = new PutOption();
+
+    // assemble position (some kind of a ratio 2:1)
+    var spread = new OptionsSpread();
+    spread.addOption(call);
+    spread.addOption(call);
+    spread.addOption(put);
+
+    LOGGER.info(spread::calculateDelta);
+  }
 
 }

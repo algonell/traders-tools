@@ -8,9 +8,9 @@ package org.algonell.trading.dp.structural.facade;
  */
 public class FxTrader implements AssetClassTrader {
 
-	@Override
-	public String trade() {
-		return "long EURUSD";
-	}
+  @Override
+  public String trade() {
+    return "long EURUSD";
+  }
 
 }

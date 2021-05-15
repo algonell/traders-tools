@@ -8,13 +8,13 @@ package org.algonell.trading.dp.behavioral.command;
  */
 public class PositionAnalysisCommand extends IbCommand {
 
-	protected PositionAnalysisCommand(IbAccountManager manager) {
-		super(manager);
-	}
+  protected PositionAnalysisCommand(IbAccountManager manager) {
+    super(manager);
+  }
 
-	@Override
-	public String perform() {
-		return manager.getDelta().get();
-	}
+  @Override
+  public String perform() {
+    return manager.getDelta().get();
+  }
 
 }

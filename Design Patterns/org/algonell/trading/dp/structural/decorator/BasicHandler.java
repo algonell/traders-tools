@@ -8,9 +8,9 @@ package org.algonell.trading.dp.structural.decorator;
  */
 public class BasicHandler implements Handler {
 
-	@Override
-	public String handle() {
-		return "handled event";
-	}
+  @Override
+  public String handle() {
+    return "handled event";
+  }
 
 }

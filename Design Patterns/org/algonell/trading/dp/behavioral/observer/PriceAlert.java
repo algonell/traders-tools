@@ -8,6 +8,6 @@ package org.algonell.trading.dp.behavioral.observer;
  */
 public interface PriceAlert {
 
-	void trigger(double change);
-	
+  void trigger(double change);
+
 }

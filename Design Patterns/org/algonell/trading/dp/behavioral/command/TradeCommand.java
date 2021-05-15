@@ -8,13 +8,13 @@ package org.algonell.trading.dp.behavioral.command;
  */
 public class TradeCommand extends IbCommand {
 
-	protected TradeCommand(IbAccountManager manager) {
-		super(manager);
-	}
+  protected TradeCommand(IbAccountManager manager) {
+    super(manager);
+  }
 
-	@Override
-	public String perform() {
-		return manager.trade().get();
-	}
+  @Override
+  public String perform() {
+    return manager.trade().get();
+  }
 
 }

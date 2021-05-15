@@ -8,19 +8,19 @@ package org.algonell.trading.dp.behavioral.templatemethod;
  */
 public class FuturesTrader extends Trader {
 
-	@Override
-	public String getData() {
-		return "got front expiration (continuous) contract";
-	}
+  @Override
+  public String getData() {
+    return "got front expiration (continuous) contract";
+  }
 
-	@Override
-	public String buildOrder() {
-		return "built futures order";
-	}
+  @Override
+  public String buildOrder() {
+    return "built futures order";
+  }
 
-	@Override
-	public String submit() {
-		return "submitted futures order";
-	}
+  @Override
+  public String submit() {
+    return "submitted futures order";
+  }
 
 }
