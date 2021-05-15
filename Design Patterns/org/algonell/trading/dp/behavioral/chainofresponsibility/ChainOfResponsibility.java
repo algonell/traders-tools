@@ -8,7 +8,8 @@ package org.algonell.trading.dp.behavioral.chainofresponsibility;
  */
 public class ChainOfResponsibility {
 
-	private static final org.apache.logging.log4j.Logger LOGGER = org.apache.logging.log4j.LogManager.getLogger(ChainOfResponsibility.class);
+	private static final org.apache.logging.log4j.Logger LOGGER = 
+			org.apache.logging.log4j.LogManager.getLogger(ChainOfResponsibility.class);
 	
 	public static void main(String[] args) {
 		RiskValidator rrValidator = new RiskToRewardValidator(null);

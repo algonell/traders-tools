@@ -8,15 +8,16 @@ package org.algonell.trading.dp.structural.composite;
  */
 public class Composite {
 
-	private static final org.apache.logging.log4j.Logger LOGGER = org.apache.logging.log4j.LogManager.getLogger(Composite.class);
+	private static final org.apache.logging.log4j.Logger LOGGER = 
+			org.apache.logging.log4j.LogManager.getLogger(Composite.class);
 	
 	public static void main(String[] args) {
 		//make some options
-		CallOption call = new CallOption();
-		PutOption put = new PutOption();
+		var call = new CallOption();
+		var put = new PutOption();
 		
 		//assemble position (some kind of a ratio 2:1)
-		OptionsSpread spread = new OptionsSpread();
+		var spread = new OptionsSpread();
 		spread.addOption(call);
 		spread.addOption(call);
 		spread.addOption(put);

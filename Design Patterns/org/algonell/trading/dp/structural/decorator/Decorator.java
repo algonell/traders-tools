@@ -8,7 +8,8 @@ package org.algonell.trading.dp.structural.decorator;
  */
 public class Decorator {
 
-	private static final org.apache.logging.log4j.Logger LOGGER = org.apache.logging.log4j.LogManager.getLogger(Decorator.class);
+	private static final org.apache.logging.log4j.Logger LOGGER = 
+			org.apache.logging.log4j.LogManager.getLogger(Decorator.class);
 	
 	public static void main(String[] args) {
 		//basic handler

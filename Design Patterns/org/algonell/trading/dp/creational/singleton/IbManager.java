@@ -3,12 +3,14 @@ package org.algonell.trading.dp.creational.singleton;
 import java.util.List;
 
 /**
- * Working with Interactive Brokers API you will have to manage many accounts.
+ * When working with Interactive Brokers API, you will have to manage many accounts.
  * Managing accounts means keeping all of them connected and active.
- * A singleton design pattern is vital here: single controller to manage all account connections (TWS / gateway).
+ * A singleton design pattern is vital here: single controller 
+ * to manage all account connections (TWS / gateway).
  * Across all of our trading algos, we must have one connector. 
  * 
- * There are too many ways to implement a singleton (most of them are bad due to multi-threading issues).
+ * There are too many ways to implement a singleton 
+ * (most of them are bad due to multi-threading issues).
  * The proper way to implement singleton is via enum. JVM guarantees single instance.
  * 
  * @author Andrew Kreiemr
@@ -17,7 +19,8 @@ import java.util.List;
 public enum IbManager {
 	INSTANCE; //single entry -> true singleton
 	
-	private final org.apache.logging.log4j.Logger logger = org.apache.logging.log4j.LogManager.getLogger(IbManager.class);
+	private final org.apache.logging.log4j.Logger logger = 
+			org.apache.logging.log4j.LogManager.getLogger(IbManager.class);
 	
 	private String metadata;
 	private List<Object> ibConnectors;

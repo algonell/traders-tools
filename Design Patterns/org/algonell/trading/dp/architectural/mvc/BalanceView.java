@@ -8,7 +8,8 @@ package org.algonell.trading.dp.architectural.mvc;
  */
 public class BalanceView {
 
-	private static final org.apache.logging.log4j.Logger LOGGER = org.apache.logging.log4j.LogManager.getFormatterLogger(BalanceView.class);
+	private static final org.apache.logging.log4j.Logger LOGGER = 
+			org.apache.logging.log4j.LogManager.getFormatterLogger(BalanceView.class);
 	
 	private RiskModel model;
 	

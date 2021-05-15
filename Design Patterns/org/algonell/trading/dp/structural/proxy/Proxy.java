@@ -8,7 +8,8 @@ package org.algonell.trading.dp.structural.proxy;
  */
 public class Proxy {
 
-	private static final org.apache.logging.log4j.Logger LOGGER = org.apache.logging.log4j.LogManager.getLogger(Proxy.class);
+	private static final org.apache.logging.log4j.Logger LOGGER = 
+			org.apache.logging.log4j.LogManager.getLogger(Proxy.class);
 	
 	public static void main(String[] args) {
 		var ds = new CachedDataStore();

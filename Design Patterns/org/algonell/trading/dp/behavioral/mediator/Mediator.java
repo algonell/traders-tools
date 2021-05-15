@@ -8,7 +8,8 @@ package org.algonell.trading.dp.behavioral.mediator;
  */
 public class Mediator {
 
-	private static final org.apache.logging.log4j.Logger LOGGER = org.apache.logging.log4j.LogManager.getFormatterLogger(Mediator.class);
+	private static final org.apache.logging.log4j.Logger LOGGER = 
+			org.apache.logging.log4j.LogManager.getFormatterLogger(Mediator.class);
 	
 	private static final String FORMAT = "portfolio exposure: %f";
 	

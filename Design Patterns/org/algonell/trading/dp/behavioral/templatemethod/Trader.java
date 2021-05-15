@@ -8,7 +8,8 @@ package org.algonell.trading.dp.behavioral.templatemethod;
  */
 public abstract class Trader {
 
-	protected static final org.apache.logging.log4j.Logger logger = org.apache.logging.log4j.LogManager.getLogger(Trader.class);
+	protected static final org.apache.logging.log4j.Logger logger = 
+			org.apache.logging.log4j.LogManager.getLogger(Trader.class);
 	
 	public final void trade() {
 		logger.info(this::getData);

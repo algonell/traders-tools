@@ -8,7 +8,8 @@ package org.algonell.trading.dp.behavioral.observer;
  */
 public class StocksAlert implements PriceAlert {
 
-	private static final org.apache.logging.log4j.Logger LOGGER = org.apache.logging.log4j.LogManager.getFormatterLogger(StocksAlert.class);
+	private static final org.apache.logging.log4j.Logger LOGGER = 
+			org.apache.logging.log4j.LogManager.getFormatterLogger(StocksAlert.class);
 	
 	@Override
 	public void trigger(double change) {

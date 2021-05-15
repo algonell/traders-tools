@@ -1,15 +1,18 @@
 package org.algonell.trading.dp.structural.facade;
 
 /**
- * Core class managing single account. Trading with the Interactive Brokers TWS API usually becomes complicated to 
- * external trading algorithms. A facade class provides wrapped simple access points to large flows. 
+ * Core class managing single account. 
+ * Trading with the Interactive Brokers TWS API usually becomes complicated to 
+ * external trading algorithms. 
+ * A facade class provides wrapped simple access points to large flows. 
  *  
  * @author Andrew Kreimer
  *
  */
 public class IbConnector {
 	
-	private static final org.apache.logging.log4j.Logger LOGGER = org.apache.logging.log4j.LogManager.getFormatterLogger(IbConnector.class);
+	private static final org.apache.logging.log4j.Logger LOGGER = 
+			org.apache.logging.log4j.LogManager.getFormatterLogger(IbConnector.class);
 	
 	private AssetClassTrader trader;
 	private OrderIdGenerator generator = new OrderIdGenerator();
