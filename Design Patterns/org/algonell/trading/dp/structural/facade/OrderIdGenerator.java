@@ -4,9 +4,8 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * Helper class for generating order id sequences.
- * 
- * @author Andrew Kreimer
  *
+ * @author Andrew Kreimer
  */
 public final class OrderIdGenerator {
 
@@ -16,5 +15,4 @@ public final class OrderIdGenerator {
     // generate next order id
     return integer.incrementAndGet();
   }
-
 }

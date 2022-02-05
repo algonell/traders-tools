@@ -2,9 +2,8 @@ package org.algonell.trading.dp.behavioral.state;
 
 /**
  * Asia: starts around CME open till Europe open.
- * 
- * @author Andrew Kreimer
  *
+ * @author Andrew Kreimer
  */
 public class AsiaSession implements Session {
 
@@ -19,5 +18,4 @@ public class AsiaSession implements Session {
 
     return "Asia is flat -> EU is on";
   }
-
 }

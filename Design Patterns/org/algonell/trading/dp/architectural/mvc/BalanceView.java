@@ -2,9 +2,8 @@ package org.algonell.trading.dp.architectural.mvc;
 
 /**
  * Account view (balance, delta, positions and etc.).
- * 
- * @author Andrew Kreimer
  *
+ * @author Andrew Kreimer
  */
 public class BalanceView {
 
@@ -20,5 +19,4 @@ public class BalanceView {
   public void view(String msg) {
     LOGGER.info("%s %f", msg, model.getDelta());
   }
-
 }

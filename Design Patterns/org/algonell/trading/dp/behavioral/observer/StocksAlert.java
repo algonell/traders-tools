@@ -2,9 +2,8 @@ package org.algonell.trading.dp.behavioral.observer;
 
 /**
  * Stocks price change alert: notify on changes above 5%.
- * 
- * @author Andrew Kreimer
  *
+ * @author Andrew Kreimer
  */
 public class StocksAlert implements PriceAlert {
 
@@ -19,5 +18,4 @@ public class StocksAlert implements PriceAlert {
       LOGGER.info("Stocks NOP");
     }
   }
-
 }

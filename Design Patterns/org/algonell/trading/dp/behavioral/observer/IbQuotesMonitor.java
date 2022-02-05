@@ -5,9 +5,8 @@ import java.util.Set;
 
 /**
  * IB quotes monitor: check for price changes every minute.
- * 
- * @author Andrew Kreimer
  *
+ * @author Andrew Kreimer
  */
 public final class IbQuotesMonitor implements QuotesMonitor {
 
@@ -20,8 +19,7 @@ public final class IbQuotesMonitor implements QuotesMonitor {
 
   @Override
   public void unsubscribe(PriceAlert alert) {
-    if (observers.contains(alert))
-      observers.remove(alert);
+    if (observers.contains(alert)) observers.remove(alert);
   }
 
   @Override
@@ -29,12 +27,9 @@ public final class IbQuotesMonitor implements QuotesMonitor {
     observers.forEach(o -> o.trigger(change));
   }
 
-  /**
-   * Perform on tick tasks. Happens When prices are being refreshed.
-   */
+  /** Perform on tick tasks. Happens When prices are being refreshed. */
   @Override
   public void onTick(double change) {
     trigger(change);
   }
-
 }

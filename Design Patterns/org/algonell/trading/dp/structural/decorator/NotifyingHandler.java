@@ -2,9 +2,8 @@ package org.algonell.trading.dp.structural.decorator;
 
 /**
  * Handler that makes notifications (Slack for instance).
- * 
- * @author Andrew Kreimer
  *
+ * @author Andrew Kreimer
  */
 public class NotifyingHandler extends HandlerDecorator {
 
@@ -16,5 +15,4 @@ public class NotifyingHandler extends HandlerDecorator {
   public String handle() {
     return super.handle() + ", notifying...";
   }
-
 }

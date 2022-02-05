@@ -2,9 +2,8 @@ package org.algonell.trading.dp.structural.composite;
 
 /**
  * Composite demo: single option is the building block of a complex options position.
- * 
- * @author Andrew Kreimer
  *
+ * @author Andrew Kreimer
  */
 public class Composite {
 
@@ -24,5 +23,4 @@ public class Composite {
 
     LOGGER.info(spread::calculateDelta);
   }
-
 }

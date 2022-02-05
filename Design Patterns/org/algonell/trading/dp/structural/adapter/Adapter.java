@@ -2,9 +2,8 @@ package org.algonell.trading.dp.structural.adapter;
 
 /**
  * Adapter demo: use standard m30 bars to create custom H4 bars in a different time zone.
- * 
- * @author Andrew Kreimer
  *
+ * @author Andrew Kreimer
  */
 public class Adapter {
 
@@ -22,5 +21,4 @@ public class Adapter {
     var adapter = new CustomH4BarsAdapter(m30Bars);
     LOGGER.info(adapter::calculateRange);
   }
-
 }

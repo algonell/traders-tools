@@ -5,9 +5,8 @@ import java.util.Set;
 
 /**
  * Flat file (CSV) data store.
- * 
- * @author Andrew Kreiemr
  *
+ * @author Andrew Kreiemr
  */
 public class CsvDataStore implements DataStore {
 
@@ -27,7 +26,7 @@ public class CsvDataStore implements DataStore {
 
   /**
    * Checks if contains CSV for this symbol.
-   * 
+   *
    * @param symbol
    */
   public boolean contains(String symbol) {
@@ -36,11 +35,10 @@ public class CsvDataStore implements DataStore {
 
   /**
    * Requests and stores new data.
-   * 
+   *
    * @param symbol
    */
   public void request(String symbol) {
     data.add(symbol);
   }
-
 }

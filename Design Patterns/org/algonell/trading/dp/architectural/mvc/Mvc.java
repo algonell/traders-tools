@@ -2,9 +2,8 @@ package org.algonell.trading.dp.architectural.mvc;
 
 /**
  * MVC demo: account management (trading controller, risk model and balance view).
- * 
- * @author Andrew Kreimer
  *
+ * @author Andrew Kreimer
  */
 public class Mvc {
 
@@ -19,5 +18,4 @@ public class Mvc {
     controller.getModel().setDelta(0.5);
     controller.getView().view("Account check");
   }
-
 }

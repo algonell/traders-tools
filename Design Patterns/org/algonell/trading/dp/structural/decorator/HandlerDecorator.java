@@ -2,9 +2,8 @@ package org.algonell.trading.dp.structural.decorator;
 
 /**
  * Handler decorator: add new functionality to existing handler.
- * 
- * @author Andrew Kreimer
  *
+ * @author Andrew Kreimer
  */
 public abstract class HandlerDecorator implements Handler {
 
@@ -18,5 +17,4 @@ public abstract class HandlerDecorator implements Handler {
   public String handle() {
     return handler.handle();
   }
-
 }

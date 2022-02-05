@@ -2,9 +2,8 @@ package org.algonell.trading.dp.behavioral.state;
 
 /**
  * State demo: trade multiple sessions of the same market.
- * 
- * @author Andrew Kreimer
  *
+ * @author Andrew Kreimer
  */
 public class State {
 
@@ -21,5 +20,4 @@ public class State {
       LOGGER.info(trader::flatten);
     }
   }
-
 }

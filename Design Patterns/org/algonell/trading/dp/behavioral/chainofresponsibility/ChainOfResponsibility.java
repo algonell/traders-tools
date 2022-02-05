@@ -2,9 +2,8 @@ package org.algonell.trading.dp.behavioral.chainofresponsibility;
 
 /**
  * Chain of Responsibility demo: trade risk assessment via chain of validation rules.
- * 
- * @author Andrew Kreimer
  *
+ * @author Andrew Kreimer
  */
 public class ChainOfResponsibility {
 
@@ -20,5 +19,4 @@ public class ChainOfResponsibility {
     LOGGER.info(() -> marginValidator.check(500));
     LOGGER.info(() -> marginValidator.check(50));
   }
-
 }

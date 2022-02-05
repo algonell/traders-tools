@@ -2,9 +2,8 @@ package org.algonell.trading.dp.behavioral.mediator;
 
 /**
  * Mediator demo: manage portfolio exposure with different instruments.
- * 
- * @author Andrew Kreimer
  *
+ * @author Andrew Kreimer
  */
 public class Mediator {
 
@@ -34,5 +33,4 @@ public class Mediator {
     exposure.add();
     LOGGER.info(FORMAT, manager.calculateDelta());
   }
-
 }

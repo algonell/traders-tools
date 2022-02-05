@@ -2,9 +2,8 @@ package org.algonell.trading.dp.structural.decorator;
 
 /**
  * Decorator demo: extend functionality of standard request handlers.
- * 
- * @author Andrew Kreimer
  *
+ * @author Andrew Kreimer
  */
 public class Decorator {
 
@@ -20,5 +19,4 @@ public class Decorator {
     Handler notifyingHandler = new NotifyingHandler(basicHandler);
     LOGGER.info(notifyingHandler::handle);
   }
-
 }

@@ -2,9 +2,8 @@ package org.algonell.trading.dp.structural.facade;
 
 /**
  * Facade demo: IbConnector class to wrap complex trading requests with simple access.
- * 
- * @author Andrew Kreimer
  *
+ * @author Andrew Kreimer
  */
 public class Facade {
 
@@ -15,5 +14,4 @@ public class Facade {
     ibConnector.trade(AssetClassType.FX);
     ibConnector.trade(AssetClassType.EQUITIES);
   }
-
 }

@@ -2,9 +2,8 @@ package org.algonell.trading.dp.behavioral.templatemethod;
 
 /**
  * Base asset class trader.
- * 
- * @author Andrew Kreimer
  *
+ * @author Andrew Kreimer
  */
 public abstract class Trader {
 
@@ -22,5 +21,4 @@ public abstract class Trader {
   public abstract String buildOrder();
 
   public abstract String submit();
-
 }

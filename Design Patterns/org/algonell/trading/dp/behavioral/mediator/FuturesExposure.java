@@ -2,9 +2,8 @@ package org.algonell.trading.dp.behavioral.mediator;
 
 /**
  * Get exposure via futures (as delta).
- * 
- * @author Andrew Kreimer
  *
+ * @author Andrew Kreimer
  */
 public class FuturesExposure extends Exposure {
 
@@ -23,5 +22,4 @@ public class FuturesExposure extends Exposure {
 
     return delta;
   }
-
 }

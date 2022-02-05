@@ -2,9 +2,8 @@ package org.algonell.trading.dp.behavioral.templatemethod;
 
 /**
  * FX trader: trade spot FX.
- * 
- * @author Andrew Kreimer
  *
+ * @author Andrew Kreimer
  */
 public class FxTrader extends Trader {
 
@@ -22,5 +21,4 @@ public class FxTrader extends Trader {
   public String submit() {
     return "submitted FX order";
   }
-
 }

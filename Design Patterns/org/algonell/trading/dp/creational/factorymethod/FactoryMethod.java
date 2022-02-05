@@ -2,9 +2,8 @@ package org.algonell.trading.dp.creational.factorymethod;
 
 /**
  * Factory Method demo: use real-time data provider across all code base, change easily if needed.
- * 
- * @author Andrew Kreimer
  *
+ * @author Andrew Kreimer
  */
 public class FactoryMethod {
 
@@ -20,5 +19,4 @@ public class FactoryMethod {
     var quandlProvider = DataProviderFactory.createProvider(DataProviderType.QUANDL);
     LOGGER.info(quandlProvider.getData());
   }
-
 }

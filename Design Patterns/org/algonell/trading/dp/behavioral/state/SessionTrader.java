@@ -2,9 +2,8 @@ package org.algonell.trading.dp.behavioral.state;
 
 /**
  * Session trader: trades multiple sessions around the clock. Adjusts active session continuously.
- * 
- * @author Andrew Kreimer
  *
+ * @author Andrew Kreimer
  */
 public class SessionTrader {
 
@@ -40,5 +39,4 @@ public class SessionTrader {
   public String flatten() {
     return activeSession.flatten(this);
   }
-
 }

@@ -5,9 +5,8 @@ import java.util.List;
 
 /**
  * IB exposure manager: control increase and decrease of portfolio exposures.
- * 
- * @author Andrew Kreimer
  *
+ * @author Andrew Kreimer
  */
 public class IbExposureManager implements ExposureMediator {
 
@@ -21,5 +20,4 @@ public class IbExposureManager implements ExposureMediator {
   public void addExposure(Exposure exposure) {
     exposures.add(exposure);
   }
-
 }

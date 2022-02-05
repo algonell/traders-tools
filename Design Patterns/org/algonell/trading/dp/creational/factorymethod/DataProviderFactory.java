@@ -2,11 +2,10 @@ package org.algonell.trading.dp.creational.factorymethod;
 
 /**
  * Factory to build a data provider via data provider type.
- * 
- * Note how you can change your provider across all code base from one place.
- * 
- * @author Andrew Kreimer
  *
+ * <p>Note how you can change your provider across all code base from one place.
+ *
+ * @author Andrew Kreimer
  */
 public final class DataProviderFactory {
 
@@ -34,5 +33,4 @@ public final class DataProviderFactory {
 
     return provider;
   }
-
 }

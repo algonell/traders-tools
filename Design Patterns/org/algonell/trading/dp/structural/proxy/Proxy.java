@@ -2,9 +2,8 @@ package org.algonell.trading.dp.structural.proxy;
 
 /**
  * Proxy demo: use cached data access when applicable, request and store new if none available.
- * 
- * @author Andrew Kreimer
  *
+ * @author Andrew Kreimer
  */
 public class Proxy {
 
@@ -23,5 +22,4 @@ public class Proxy {
     // next time
     LOGGER.info(ds.getData("NQ"));
   }
-
 }

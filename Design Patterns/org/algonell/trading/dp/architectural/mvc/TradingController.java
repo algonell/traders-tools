@@ -2,9 +2,8 @@ package org.algonell.trading.dp.architectural.mvc;
 
 /**
  * Account controller: orchestrate trading, risk assessment and balance updates.
- * 
- * @author Andrew Kreimer
  *
+ * @author Andrew Kreimer
  */
 public class TradingController {
 
@@ -23,5 +22,4 @@ public class TradingController {
   public BalanceView getView() {
     return view;
   }
-
 }

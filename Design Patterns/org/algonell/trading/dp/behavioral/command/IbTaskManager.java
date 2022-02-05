@@ -5,9 +5,8 @@ import java.util.List;
 
 /**
  * Simple task manager. Add priorities, entries and exclusions as needed.
- * 
- * @author Andrew Kreimer
  *
+ * @author Andrew Kreimer
  */
 public class IbTaskManager {
 
@@ -18,5 +17,4 @@ public class IbTaskManager {
 
     return task.perform();
   }
-
 }

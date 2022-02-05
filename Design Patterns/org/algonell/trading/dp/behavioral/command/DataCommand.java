@@ -2,9 +2,8 @@ package org.algonell.trading.dp.behavioral.command;
 
 /**
  * Data command: any data related task (cache, request, store and etc.).
- * 
- * @author Andrew Kreimer
  *
+ * @author Andrew Kreimer
  */
 public class DataCommand extends IbCommand {
 
@@ -16,5 +15,4 @@ public class DataCommand extends IbCommand {
   public String perform() {
     return manager.getData().get();
   }
-
 }

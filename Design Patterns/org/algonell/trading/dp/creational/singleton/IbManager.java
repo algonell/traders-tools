@@ -7,12 +7,11 @@ import java.util.List;
  * accounts means keeping all of them connected and active. A singleton design pattern is vital
  * here: single controller to manage all account connections (TWS / gateway). Across all of our
  * trading algos, we must have one connector.
- * 
- * There are too many ways to implement a singleton (most of them are bad due to multi-threading
- * issues). The proper way to implement singleton is via enum. JVM guarantees single instance.
- * 
- * @author Andrew Kreiemr
  *
+ * <p>There are too many ways to implement a singleton (most of them are bad due to multi-threading
+ * issues). The proper way to implement singleton is via enum. JVM guarantees single instance.
+ *
+ * @author Andrew Kreiemr
  */
 public enum IbManager {
   INSTANCE; // single entry -> true singleton
@@ -66,5 +65,4 @@ public enum IbManager {
 
     logger.info("disconnected");
   }
-
 }

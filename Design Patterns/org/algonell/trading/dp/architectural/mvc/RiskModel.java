@@ -5,9 +5,8 @@ import java.util.Set;
 
 /**
  * Risk assessment and portfolio evaluation. Uses observer Design Pattern to update the view.
- * 
- * @author Andrew Kreimer
  *
+ * @author Andrew Kreimer
  */
 public class RiskModel {
 
@@ -19,8 +18,7 @@ public class RiskModel {
   }
 
   public void unsubscribe(BalanceView view) {
-    if (observers.contains(view))
-      observers.remove(view);
+    if (observers.contains(view)) observers.remove(view);
   }
 
   public void trigger(String msg) {
@@ -34,5 +32,4 @@ public class RiskModel {
   public void setDelta(double delta) {
     this.delta = delta;
   }
-
 }

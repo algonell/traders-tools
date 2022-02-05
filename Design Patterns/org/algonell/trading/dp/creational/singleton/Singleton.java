@@ -2,9 +2,8 @@ package org.algonell.trading.dp.creational.singleton;
 
 /**
  * Singleton demo: use unique manager for multiple accounts.
- * 
- * @author Andrew Kreimer
  *
+ * @author Andrew Kreimer
  */
 public class Singleton {
 
@@ -17,5 +16,4 @@ public class Singleton {
 
     IbManager.INSTANCE.disconnect();
   }
-
 }

@@ -3,9 +3,8 @@ package org.algonell.trading.dp.behavioral.command;
 /**
  * Command demo: perform account related tasks efficiently. Including: data, trading, risk
  * assessment and etc.
- * 
- * @author Andrew Kreimer
  *
+ * @author Andrew Kreimer
  */
 public class Command {
 
@@ -24,5 +23,4 @@ public class Command {
     LOGGER.info(() -> taskManager.perform(new TradeCommand(accountManager)));
     LOGGER.info(() -> taskManager.perform(new PositionAnalysisCommand(accountManager)));
   }
-
 }

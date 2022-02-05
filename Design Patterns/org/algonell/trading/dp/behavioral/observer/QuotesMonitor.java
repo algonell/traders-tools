@@ -2,9 +2,8 @@ package org.algonell.trading.dp.behavioral.observer;
 
 /**
  * Quotes monitor: probes price changes for various asset classes.
- * 
- * @author Andrew Kreimer
  *
+ * @author Andrew Kreimer
  */
 public interface QuotesMonitor {
 
@@ -15,5 +14,4 @@ public interface QuotesMonitor {
   void trigger(double change); // in %
 
   void onTick(double change); // in %
-
 }

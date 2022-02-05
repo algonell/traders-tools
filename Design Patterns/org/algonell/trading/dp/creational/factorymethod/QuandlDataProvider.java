@@ -2,9 +2,8 @@ package org.algonell.trading.dp.creational.factorymethod;
 
 /**
  * Quandl data provider. Uses quandl4j library.
- * 
- * @author Andrew Kreimer
  *
+ * @author Andrew Kreimer
  */
 public class QuandlDataProvider implements DataProvider {
 
@@ -14,5 +13,4 @@ public class QuandlDataProvider implements DataProvider {
 
     return "Data from Quandl";
   }
-
 }

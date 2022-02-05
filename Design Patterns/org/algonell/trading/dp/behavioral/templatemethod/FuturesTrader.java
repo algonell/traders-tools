@@ -2,9 +2,8 @@ package org.algonell.trading.dp.behavioral.templatemethod;
 
 /**
  * Futures trader: trading futures requires many precautions and subtle considerations.
- * 
- * @author Andrew Kreimer
  *
+ * @author Andrew Kreimer
  */
 public class FuturesTrader extends Trader {
 
@@ -22,5 +21,4 @@ public class FuturesTrader extends Trader {
   public String submit() {
     return "submitted futures order";
   }
-
 }

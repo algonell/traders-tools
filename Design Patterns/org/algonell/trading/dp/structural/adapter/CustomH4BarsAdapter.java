@@ -2,9 +2,8 @@ package org.algonell.trading.dp.structural.adapter;
 
 /**
  * Adapter from m30 bars to custom H4 bars.
- * 
- * @author Andrew Kreimer
  *
+ * @author Andrew Kreimer
  */
 public class CustomH4BarsAdapter extends H4Bars {
 
@@ -16,5 +15,4 @@ public class CustomH4BarsAdapter extends H4Bars {
   public String calculateRange() {
     return "calculated range of custom H4 bars via m30 bars";
   }
-
 }

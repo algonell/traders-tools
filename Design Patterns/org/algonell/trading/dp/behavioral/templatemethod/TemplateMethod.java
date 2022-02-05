@@ -2,9 +2,8 @@ package org.algonell.trading.dp.behavioral.templatemethod;
 
 /**
  * Template Method demo: use template trading flow for various asset classes.
- * 
- * @author Andrew Kreimer
  *
+ * @author Andrew Kreimer
  */
 public class TemplateMethod {
 
@@ -17,5 +16,4 @@ public class TemplateMethod {
     trader = new FxTrader();
     trader.trade();
   }
-
 }

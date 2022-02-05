@@ -5,9 +5,8 @@ import java.util.List;
 
 /**
  * Options Spread: a combination of long / short puts / calls, known as legs.
- * 
- * @author Andrew Kreimer
  *
+ * @author Andrew Kreimer
  */
 public class OptionsSpread implements Option {
 
@@ -21,5 +20,4 @@ public class OptionsSpread implements Option {
   public double calculateDelta() {
     return legs.stream().mapToDouble(Option::calculateDelta).sum();
   }
-
 }

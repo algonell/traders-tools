@@ -2,9 +2,8 @@ package org.algonell.trading.dp.behavioral.observer;
 
 /**
  * Futures price change alert: notify on changes above 2%.
- * 
- * @author Andrew Kreimer
  *
+ * @author Andrew Kreimer
  */
 public class FuturesAlert implements PriceAlert {
 
@@ -19,5 +18,4 @@ public class FuturesAlert implements PriceAlert {
       LOGGER.info("Futures NOP");
     }
   }
-
 }

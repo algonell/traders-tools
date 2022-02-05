@@ -2,9 +2,8 @@ package org.algonell.trading.dp.creational.factorymethod;
 
 /**
  * Interactive Brokers data provider. Uses TWS API to get historical data (bar, unit & period).
- * 
- * @author Andrew Kreimer
  *
+ * @author Andrew Kreimer
  */
 public class IbDataProvider implements DataProvider {
 
@@ -16,5 +15,4 @@ public class IbDataProvider implements DataProvider {
 
     return "Data from IB";
   }
-
 }

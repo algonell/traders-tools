@@ -2,9 +2,8 @@ package org.algonell.trading.dp.behavioral.observer;
 
 /**
  * Observer demo: price alerts for various asset classes.
- * 
- * @author Andrew Kreimer
  *
+ * @author Andrew Kreimer
  */
 public class Observer {
 
@@ -28,5 +27,4 @@ public class Observer {
     // simulate markets
     monitor.onTick(13);
   }
-
 }

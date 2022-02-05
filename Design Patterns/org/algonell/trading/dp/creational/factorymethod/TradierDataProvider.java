@@ -2,9 +2,8 @@ package org.algonell.trading.dp.creational.factorymethod;
 
 /**
  * Tradier data provider. Uses REST.
- * 
- * @author Andrew Kreimer
  *
+ * @author Andrew Kreimer
  */
 public class TradierDataProvider implements DataProvider {
 
@@ -14,5 +13,4 @@ public class TradierDataProvider implements DataProvider {
 
     return "Data from Tradier";
   }
-
 }

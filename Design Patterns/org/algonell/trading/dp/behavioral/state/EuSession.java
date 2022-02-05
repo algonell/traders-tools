@@ -3,9 +3,8 @@ package org.algonell.trading.dp.behavioral.state;
 /**
  * Europe: starts when Asia is closed. Let's assume this session ends before United States opening
  * (14:30 GMT).
- * 
- * @author Andrew Kreimer
  *
+ * @author Andrew Kreimer
  */
 public class EuSession implements Session {
 
@@ -20,5 +19,4 @@ public class EuSession implements Session {
 
     return "EU is flat -> US is on";
   }
-
 }

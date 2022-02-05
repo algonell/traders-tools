@@ -2,9 +2,8 @@ package org.algonell.trading.dp.behavioral.command;
 
 /**
  * IB command: base task to be done.
- * 
- * @author Andrew Kreimer
  *
+ * @author Andrew Kreimer
  */
 public abstract class IbCommand {
 
@@ -15,5 +14,4 @@ public abstract class IbCommand {
   }
 
   public abstract String perform();
-
 }

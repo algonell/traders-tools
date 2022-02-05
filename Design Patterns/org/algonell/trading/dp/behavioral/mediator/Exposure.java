@@ -3,9 +3,8 @@ package org.algonell.trading.dp.behavioral.mediator;
 /**
  * Any portfolio consists of exposures (stocks, futures, FX and etc.). Adding and removing exposures
  * depends on existing exposures. We can get the same exposure in different markets.
- * 
- * @author Andrew Kreimer
  *
+ * @author Andrew Kreimer
  */
 public abstract class Exposure {
 
@@ -24,5 +23,4 @@ public abstract class Exposure {
   public double get() {
     return delta;
   }
-
 }

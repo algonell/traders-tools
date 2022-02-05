@@ -2,9 +2,8 @@ package org.algonell.trading.dp.behavioral.mediator;
 
 /**
  * Get exposure via stocks (as delta).
- * 
- * @author Andrew Kreimer
  *
+ * @author Andrew Kreimer
  */
 public class StocksExposure extends Exposure {
 
@@ -23,5 +22,4 @@ public class StocksExposure extends Exposure {
 
     return delta;
   }
-
 }
