@@ -13,6 +13,6 @@ public class CustomH4BarsAdapter extends H4Bars {
 
   @Override
   public String calculateRange() {
-    return "calculated range of custom H4 bars via m30 bars";
+    return String.format("calculated range of custom H4 bars via %s m30 bars", prices.size());
   }
 }

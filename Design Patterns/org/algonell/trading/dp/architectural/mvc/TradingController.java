@@ -16,7 +16,7 @@ public class TradingController {
   }
 
   public RiskModel getModel() {
-    return model;
+    return new RiskModel(model);
   }
 
   public BalanceView getView() {

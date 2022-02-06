@@ -13,7 +13,7 @@ public class BalanceView {
   private RiskModel model;
 
   public BalanceView(RiskModel model) {
-    this.model = model;
+    this.model = new RiskModel(model);
   }
 
   public void view(String msg) {

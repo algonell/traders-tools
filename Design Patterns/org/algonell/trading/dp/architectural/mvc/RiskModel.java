@@ -13,6 +13,13 @@ public class RiskModel {
   private Set<BalanceView> observers = new HashSet<>();
   private double delta;
 
+  public RiskModel() {}
+
+  public RiskModel(RiskModel model) {
+    this.observers = model.observers;
+    this.delta = model.delta;
+  }
+
   public void subscribe(BalanceView view) {
     observers.add(view);
   }

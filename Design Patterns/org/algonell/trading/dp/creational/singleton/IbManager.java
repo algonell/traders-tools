@@ -1,5 +1,6 @@
 package org.algonell.trading.dp.creational.singleton;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -31,7 +32,7 @@ public enum IbManager {
   }
 
   public List<Object> getIbConnectors() {
-    return ibConnectors;
+    return new ArrayList<>(ibConnectors);
   }
 
   public void init() {
