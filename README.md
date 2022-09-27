@@ -1,6 +1,7 @@
 # Trader's Tools
 Insights, tools and tips as a result of losing too much money :crocodile:.
 
+* Trading for a Living [[Medium]](https://algonell.medium.com/trading-for-a-living-9251d72c5696) - or what it takes to go from zero to **humble** hero in the markets.
 * Things You Learn After 1 Year of Day Trading for a Living [[Medium]](https://algonell.medium.com/things-you-learn-after-1-year-of-day-trading-for-a-living-a97bbc8d19fa) - or what **not** to do in the markets.
 * Numer.ai - tools for creating symbol lists (attic).
 
