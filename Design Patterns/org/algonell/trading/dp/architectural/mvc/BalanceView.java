@@ -1,7 +1,7 @@
 package org.algonell.trading.dp.architectural.mvc;
 
 /**
- * Account view (balance, delta, positions and etc.).
+ * Account view (balance, delta, positions, etc.).
  *
  * @author Andrew Kreimer
  */
