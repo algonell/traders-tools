@@ -9,7 +9,7 @@ public class CallOption implements Option {
 
   @Override
   public double calculateDelta() {
-    // depends on the strike, IV and etc.
+    // depends on the strike, IV, etc.
     return 0.5;
   }
 }
