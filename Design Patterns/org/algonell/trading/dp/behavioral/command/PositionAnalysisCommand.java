@@ -1,7 +1,7 @@
 package org.algonell.trading.dp.behavioral.command;
 
 /**
- * Position analysis command: request positions, assess margin/risk, calculate delta and etc.
+ * Position analysis command: request positions, assess margin/risk, calculate delta, etc.
  *
  * @author Andrew Kreimer
  */
