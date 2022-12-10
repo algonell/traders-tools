@@ -11,7 +11,7 @@ Insights, tools and tips as a result of losing too much money :crocodile:.
 
 Pattern | Category | Idea
  --- | --- | ---
-[Singleton](https://github.com/algonell/TradersTools/blob/main/Design%20Patterns/org/algonell/trading/dp/creational/singleton/Singleton.java) | Creational | Manage multiple accounts (connections, disconnections, execution requests, orders requests and etc.) via single object and once.
+[Singleton](https://github.com/algonell/TradersTools/blob/main/Design%20Patterns/org/algonell/trading/dp/creational/singleton/Singleton.java) | Creational | Manage multiple accounts (connections, disconnections, execution requests, orders requests, etc.) via single object and once.
 [Factory Method](https://github.com/algonell/TradersTools/blob/main/Design%20Patterns/org/algonell/trading/dp/creational/factorymethod/FactoryMethod.java) | Creational | Change historical data provider across all code base with a single modification.
 [Facade](https://github.com/algonell/TradersTools/blob/main/Design%20Patterns/org/algonell/trading/dp/structural/facade/Facade.java) | Structural | Wrap complex logic with simple access point.
 [Adapter](https://github.com/algonell/TradersTools/blob/main/Design%20Patterns/org/algonell/trading/dp/structural/adapter/Adapter.java) | Structural | Use standard m30 bars to create custom H4 bars in a different time zone.
@@ -21,7 +21,7 @@ Pattern | Category | Idea
 [Template Method](https://github.com/algonell/TradersTools/blob/main/Design%20Patterns/org/algonell/trading/dp/behavioral/templatemethod/TemplateMethod.java) | Behavioral | Use template trading flow for various asset classes.
 [Chain of Responsibility](https://github.com/algonell/TradersTools/blob/main/Design%20Patterns/org/algonell/trading/dp/behavioral/chainofresponsibility/ChainOfResponsibility.java) | Behavioral | Trade risk assessment via chain of validation rules.
 [State](https://github.com/algonell/TradersTools/blob/main/Design%20Patterns/org/algonell/trading/dp/behavioral/state/State.java) | Behavioral | Trade multiple sessions of the same market.
-[Command](https://github.com/algonell/TradersTools/blob/main/Design%20Patterns/org/algonell/trading/dp/behavioral/command/Command.java) | Behavioral | Perform account related tasks (data, trading, risk assessment and etc.) efficiently.
+[Command](https://github.com/algonell/TradersTools/blob/main/Design%20Patterns/org/algonell/trading/dp/behavioral/command/Command.java) | Behavioral | Perform account related tasks (data, trading, risk assessment, etc.) efficiently.
 [Mediator](https://github.com/algonell/TradersTools/blob/main/Design%20Patterns/org/algonell/trading/dp/behavioral/mediator/Mediator.java) | Behavioral | Manage portfolio exposure with different instruments.
 [Observer](https://github.com/algonell/TradersTools/blob/main/Design%20Patterns/org/algonell/trading/dp/behavioral/observer/Observer.java) | Behavioral | Price alerts for various asset classes.
 [MVC](https://github.com/algonell/TradersTools/blob/main/Design%20Patterns/org/algonell/trading/dp/behavioral/mvc/Mvc.java) | Architectural | Account management (trading controller, risk model and balance view).
