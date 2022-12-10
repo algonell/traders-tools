@@ -2,7 +2,7 @@ package org.algonell.trading.dp.behavioral.command;
 
 /**
  * Command demo: perform account related tasks efficiently. Including: data, trading, risk
- * assessment and etc.
+ * assessment, etc.
  *
  * @author Andrew Kreimer
  */
