@@ -36,3 +36,54 @@ Pattern | Category | Idea
 * Mind Over Markets: Power Trading with Market Generated Information [[James F. Dalton, Eric T. Jones, Robert B. Dalton]](https://www.amazon.com/gp/product/1118531736/ref=as_li_tl?ie=UTF8&tag=algonell-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1118531736&linkId=f29b84b4a9fc27cff6a246124d696f88)
 
 * Trading Sardines: Lessons in the Markets from a Lifelong Trader [[Linda Raschke]](https://lindaraschke.net/trading-sardines/)
+
+## Micro Task Management Language (MTML)
+
+* Generalized task management notation.
+
+* Symbols:
+
+    Symbol | Meaning
+    --- | ---
+    ! | Important.
+    \+ | Task.
+    \- | Metadata / elaboration on previous line.
+    ~ | Thought / idea.
+    ~~ | Thought / idea in flow.
+    \~~~ | Multi-day flow.
+    % | Edge / trading idea.
+    ? | Question.
+    @ | Topic.
+    $ | Performance related task / idea.
+    ^ | Test.
+    & | Refactoring.
+    \# | Bug.
+    <> | Think about it / sleep on it, a coda in blocks.
+    . | Relevant to this particular day (usually in the calendar).
+
+* Blocks:
+  * Symbols can be combined with other symbols.
+  * Small topic is either one line or condensed multiple lines.
+  * Big topic is surrounded by @ symbols and contains small topics.
+  * Code blocks / comments appear verbatim without any symbols.
+  * When in flow, elaboration hyphens can be omitted.
+
+* Examples:
+    ```
+    !+ this is an important task
+    - with some metadata here
+
+    $& this is a performance related refactoring
+
+    @ this is a big topic
+    ~ with some ideas
+
+    + tasks
+
+    # bugs
+
+    ? questions
+
+    .^ and some tests to be performed today 
+    @ this is a big topic (same text as in the first symbol)
+    ```
