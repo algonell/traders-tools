@@ -53,7 +53,7 @@ Pattern | Category | Idea
     \~~~ | Multi-day flow.
     % | Edge / trading idea.
     ? | Question.
-    @ | Topic.
+    @ | Topic, can be nested (useful in the calendar).
     $ | Performance related task / idea.
     ^ | Test.
     & | Refactoring.
@@ -77,6 +77,9 @@ Pattern | Category | Idea
 
     @ this is a big topic
     ~ with some ideas
+
+    @ sub topic
+    ~ with some ideas (related to the super topic)
 
     + tasks
 
