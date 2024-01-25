@@ -50,7 +50,7 @@ Pattern | Category | Idea
     \- | Metadata / elaboration on previous line.
     ~ | Thought / idea.
     ~~ | Thought / idea in flow.
-    \~~~ | Multi-day flow.
+    \~~~ | Thought / idea in multi-day flow.
     % | Edge / trading idea.
     ? | Question.
     @ | Topic, can be nested (useful in the calendar).
