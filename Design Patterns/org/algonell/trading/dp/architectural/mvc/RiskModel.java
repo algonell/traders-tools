@@ -25,7 +25,9 @@ public class RiskModel {
   }
 
   public void unsubscribe(BalanceView view) {
-    if (observers.contains(view)) observers.remove(view);
+    if (observers.contains(view)) {
+      observers.remove(view);
+    }
   }
 
   public void trigger(String msg) {

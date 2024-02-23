@@ -13,9 +13,13 @@ public class RiskToRewardValidator extends RiskValidator {
 
   @Override
   public String check(double risk) {
-    if (risk > 1000) return "RR check: risk is too high";
+    if (risk > 1000) {
+      return "RR check: risk is too high";
+    }
 
-    if (next != null) return "RR check: OK, " + next.check(risk);
+    if (next != null) {
+      return "RR check: OK, " + next.check(risk);
+    }
 
     return "RR check: OK, done.";
   }

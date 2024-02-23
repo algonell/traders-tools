@@ -19,7 +19,9 @@ public final class IbQuotesMonitor implements QuotesMonitor {
 
   @Override
   public void unsubscribe(PriceAlert alert) {
-    if (observers.contains(alert)) observers.remove(alert);
+    if (observers.contains(alert)) {
+      observers.remove(alert);
+    }
   }
 
   @Override

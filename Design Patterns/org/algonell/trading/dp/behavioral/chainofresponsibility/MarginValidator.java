@@ -13,9 +13,13 @@ public class MarginValidator extends RiskValidator {
 
   @Override
   public String check(double risk) {
-    if (risk > 500) return "Margin rule: too high";
+    if (risk > 500) {
+      return "Margin rule: too high";
+    }
 
-    if (next != null) return "Margin rule: OK, " + next.check(risk);
+    if (next != null) {
+      return "Margin rule: OK, " + next.check(risk);
+    }
 
     return "Margin rule: OK, done.";
   }

@@ -12,7 +12,9 @@ public class CachedDataStore implements DataStore {
   @Override
   public String getData(String symbol) {
     // data exists
-    if (csvStore.contains(symbol)) return csvStore.getData(symbol);
+    if (csvStore.contains(symbol)) {
+      return csvStore.getData(symbol);
+    }
 
     // request and store
     csvStore.request(symbol);
