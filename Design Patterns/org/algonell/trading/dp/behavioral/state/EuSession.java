@@ -1,8 +1,9 @@
 package org.algonell.trading.dp.behavioral.state;
 
 /**
- * Europe: starts when Asia is closed. Let's assume this session ends before United States opening
- * (14:30 GMT).
+ * Europe: starts when Asia is closed.
+ *
+ * Let's assume this session ends before United States opening (8:30 CT).
  *
  * @author Andrew Kreimer
  */
