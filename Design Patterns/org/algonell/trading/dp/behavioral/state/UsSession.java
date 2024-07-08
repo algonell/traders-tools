@@ -3,7 +3,7 @@ package org.algonell.trading.dp.behavioral.state;
 /**
  * United States: starts at 8:30 CT, till 15:00 CT.
  *
- * Next session is Asia the next day.
+ * <p>Next session is Asia the next day.
  *
  * @author Andrew Kreimer
  */
