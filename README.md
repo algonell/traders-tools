@@ -27,13 +27,13 @@ Pattern | Category | Idea
 [MVC](https://github.com/algonell/traders-tools/blob/main/Design%20Patterns/org/algonell/trading/dp/architectural/mvc/Mvc.java) | Architectural | Account management (trading controller, risk model and balance view).
 
 ## Books
-* Thinking, Fast and Slow [[Daniel Kahneman]](https://www.amazon.com/gp/product/0374533555/ref=as_li_tl?ie=UTF8&tag=algonell-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0374533555&linkId=41df8a28a4e4d3b79b918aaa994449b4)
+* Thinking, Fast and Slow [[Daniel Kahneman]](https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555)
 
-* Fooled by Randomness: The Hidden Role of Chance in Life and in the Markets [[Nassim Nicholas Taleb]](https://www.amazon.com/gp/product/0812975219/ref=as_li_tl?ie=UTF8&tag=algonell-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0812975219&linkId=1d3e2d9ef23e1611ee2c4c4926692cec)
+* Fooled by Randomness: The Hidden Role of Chance in Life and in the Markets [[Nassim Nicholas Taleb]](https://www.amazon.com/Fooled-Randomness-Hidden-Markets-Incerto/dp/1400067936)
 
-* Trading in the Zone: Master the Market with Confidence, Discipline and a Winning Attitude [[Mark Douglas]](https://www.amazon.com/gp/product/0735201447/ref=as_li_tl?ie=UTF8&tag=algonell-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0735201447&linkId=6dc94049810903c85f834eba4ba30f90)
+* Trading in the Zone: Master the Market with Confidence, Discipline and a Winning Attitude [[Mark Douglas]](https://www.amazon.com/Trading-Zone-Confidence-Discipline-Attitude/dp/0735201447)
 
-* Mind Over Markets: Power Trading with Market Generated Information [[James F. Dalton, Eric T. Jones, Robert B. Dalton]](https://www.amazon.com/gp/product/1118531736/ref=as_li_tl?ie=UTF8&tag=algonell-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1118531736&linkId=f29b84b4a9fc27cff6a246124d696f88)
+* Mind Over Markets: Power Trading with Market Generated Information [[James F. Dalton, Eric T. Jones, Robert B. Dalton]](https://www.amazon.com/Mind-Over-Markets-Generated-Information/dp/1118531736)
 
 * Trading Sardines: Lessons in the Markets from a Lifelong Trader [[Linda Raschke]](https://lindaraschke.net/trading-sardines/)
 
