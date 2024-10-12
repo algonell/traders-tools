@@ -47,14 +47,14 @@ Pattern | Category | Idea
     --- | ---
     ! | Important.
     \+ | Task.
-    \- | Metadata / elaboration on previous line.
-    ~ | Thought / idea.
-    ~~ | Thought / idea in flow.
-    \~~~ | Thought / idea in multi-day flow.
-    % | Edge / trading idea.
+    \- | Metadata/elaboration on previous line.
+    ~ | Thought/idea.
+    ~~ | Thought/idea in flow.
+    \~~~ | Thought/idea in multi-day flow.
+    % | Edge/trading idea.
     ? | Question.
     @ | Topic, can be nested (useful in the calendar).
-    $ | Performance related task / idea.
+    $ | Performance related task/idea.
     ^ | Test.
     & | Refactoring.
     \# | Bug.
@@ -65,7 +65,7 @@ Pattern | Category | Idea
   * Symbols can be combined with other symbols.
   * Small topic is either one line or condensed multiple lines.
   * Big topic is surrounded by @ symbols and contains small topics.
-  * Code blocks / comments appear verbatim without any symbols.
+  * Code blocks/comments appear verbatim without any symbols.
   * When in flow, elaboration hyphens can be omitted.
 
 * Examples:
