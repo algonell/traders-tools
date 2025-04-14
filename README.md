@@ -90,7 +90,40 @@ Pattern | Category | Idea
     .^ and some tests to be performed today 
     @ this is a big topic (same text as in the first symbol)
     ```
+
 ## Quotes
 * Don’t underestimate the time it takes to develop an edge [Linda Raschke]
 
 * Those who work that hard deserve their success; no apology is necessary [Victor Sperandeo]
+
+## TIL
+* Eclipse:
+    - Ctrl + Shift + Alt + l: quick search
+    - Shift + F2: online javadoc
+
+* JupyterLab:
+    - Ctrl + Shift + c: quick search
+    - Ctrl + f, Ctrl + g: find and iterate
+    - Ctrl + Shift + q: shutdown notebook
+
+* Terminal:
+    - Ctrl + d: exit
+    - Ctrl + l: clear
+    - man vs. info
+    - type instead of which
+    - umount -R to handle busy things
+
+* Vim:
+    - selection followed by :term bash to run as a command
+    - ~ for case switch upper/lower
+    - exact search in the form /\<str\>
+    - search selected (yanked): / Ctrl + r followed by "
+
+* man:
+    - & search to show only matching lines
+    - C functions are included
+
+* git:
+    - @ <=> HEAD
+    - git rebase interactive:
+        - reword and fixup
