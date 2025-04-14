@@ -90,3 +90,7 @@ Pattern | Category | Idea
     .^ and some tests to be performed today 
     @ this is a big topic (same text as in the first symbol)
     ```
+## Quotes
+* Don’t underestimate the time it takes to develop an edge [Linda Raschke]
+
+* Those who work that hard deserve their success; no apology is necessary [Victor Sperandeo]
