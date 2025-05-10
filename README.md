@@ -45,21 +45,21 @@ Pattern | Category | Idea
 
     Symbol | Meaning
     --- | ---
-    ! | Important.
-    \+ | Task.
-    \- | Metadata/elaboration on previous line.
-    ~ | Thought/idea.
-    ~~ | Thought/idea in flow.
-    \~~~ | Thought/idea in multi-day flow.
-    % | Edge/trading idea.
-    ? | Question.
-    @ | Topic, can be nested (useful in the calendar).
-    $ | Performance related task/idea.
-    ^ | Test.
-    & | Refactoring.
-    \# | Bug.
-    <> | Think about it / sleep on it, a coda in blocks.
-    . | Relevant to this particular day (usually in the calendar).
+    ! | Important
+    \+ | Task
+    \- | Metadata/elaboration on previous line
+    ~ | Thought/idea
+    ~~ | Thought/idea in flow
+    \~~~ | Thought/idea in multi-day flow
+    % | Edge/trading idea
+    ? | Question
+    @ | Topic, can be nested (useful in the calendar)
+    $ | Performance related task/idea
+    ^ | Test
+    & | Refactoring
+    \# | Bug
+    <> | Think about it / sleep on it, a coda in blocks
+    . | Relevant to this particular day (usually in the calendar)
 
 * Blocks:
   * Symbols can be combined with other symbols.
