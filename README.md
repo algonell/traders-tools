@@ -60,6 +60,7 @@ Pattern | Category | Idea
     \# | Bug
     <> | Think about it / sleep on it, a coda in blocks
     . | Relevant to this particular day (usually in the calendar)
+    = | Experiment
 
 * Blocks:
   * Symbols can be combined with other symbols.
