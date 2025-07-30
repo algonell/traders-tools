@@ -113,6 +113,7 @@ Pattern | Category | Idea
     - man vs. info
     - type instead of which
     - umount -R to handle busy things
+    - apropos vs. whatis
 
 * Vim:
     - selection followed by :term bash to run as a command
