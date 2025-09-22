@@ -114,6 +114,9 @@ Pattern | Category | Idea
     - type instead of which
     - umount -R to handle busy things
     - apropos vs. whatis
+    - Mouse:
+        - selection is copy
+        - middle button is paste
 
 * Vim:
     - selection followed by :term bash to run as a command
